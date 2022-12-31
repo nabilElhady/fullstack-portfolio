@@ -48,7 +48,7 @@ export default function Home() {
 
       {/* projects */}
 
-      <section id="projects" className="snap-start">
+      <section id="projects" className="md:snap-start">
         <Projects></Projects>
       </section>
 
@@ -58,7 +58,7 @@ export default function Home() {
       </section>
 
       <Link href="#hero">
-        <footer className="sticky bottom-5 w-full cursor-pointer">
+        <footer className="sticky bottom-5 w-10 relative left-[50%] cursor-pointer">
           <div className=" flex items-center justify-center ">
             <ChevronDoubleUpIcon className="h-10 w-10 rounded-full grayscale hover:grayscale-0 cursor-pointer border border-[#f7ab0a] bg-[#f7ab0a]/80"></ChevronDoubleUpIcon>
             {/* <img

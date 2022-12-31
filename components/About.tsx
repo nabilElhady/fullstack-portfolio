@@ -8,7 +8,7 @@ function About({}) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
+      className="h-screen text-[#dbdbdb] flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
       <h3 className="absolute top-[3rem] md:top-[24] uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         About
@@ -50,12 +50,12 @@ function About({}) {
           <span className="underline decoration-[#f7ab0a]/50">js</span>
           &nbsp;,
           <span className="underline decoration-[#f7ab0a]/50">react</span>
-          &nbsp;,
+          &nbsp;and &nbsp;
           <span className="underline decoration-[#f7ab0a]/50">redux</span>
           &nbsp;.
-          <br /> <br />i have developed so many beautiful websites ,i upload
-          them continuously yo my github repository if you got any questions
-          please let me know
+          <br /> <br />i have developed so many stunning websites ,i upload them
+          continuously to my github repository if you got any questions please
+          let me know
         </div>
       </div>
     </motion.div>

@@ -16,9 +16,9 @@ const ContactMe = (props: Props) => {
     window.location.href = `mailto:nabilelhady73@gmail.com?subject=${data.subject}&body=Hi,my name is ${data.name}.(${data.message}) (${data.email})`;
   };
   return (
-    <div className="h-screen flex relative text-center flex-col md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center ">
+    <div className="md:h-screen h-[650px] text-[#dbdbdb] flex relative text-center flex-col md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center ">
       {" "}
-      <h3 className="absolute top-5 uppercase tracking-[20px] text-gray-500 text-2xl z-10">
+      <h3 className="absolute md:top-5 top-24 uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         Contact
       </h3>
       <div className="relative  top-10">
