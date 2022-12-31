@@ -38,7 +38,7 @@ const ContactMe = (props: Props) => {
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#f7ab0a] h-7 w-7 animate-pulse"></EnvelopeIcon>
-            <p className="text-2xl">ASDASDASD@GMAIL.COM</p>
+            <p className="text-2xl">nabilelhady73@gmail.com</p>
           </div>
         </div>
         <form

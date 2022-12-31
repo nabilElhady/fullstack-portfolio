@@ -167,21 +167,21 @@ const Projects = (props: Props) => {
       className="h-screen h-[650px]  relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto  items-center z-0"
     >
       {" "}
-      <h3 className="absolute top-24  uppercase tracking-[20px] text-gray-500 text-2xl z-10">
+      <h3 className="absolute md:top-24 top-12  uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         Projects
       </h3>
-      <div className="relative  w-full flex overflow-x-scroll overflow-y-hidden snap-x md:snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80   ">
+      <div className="relative items-center text-center  w-full flex overflow-x-scroll overflow-y-hidden snap-x md:snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  -top-16 md:-top-10 ">
         {/* projects */}
         {projectss.map((item, i) => (
           <div
             key="1"
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-sceen"
           >
-            <div className=" text-center flex flex-col lg:flex-row">
-              <div className="text-center justify-center flex flex-col items-center">
+            <div className=" text-center flex flex-col lg:flex-row ">
+              <div className="text-center justify-center flex flex-col items-center  w-[400px]">
                 <div className="relative">
                   <motion.img
-                    className=" h-[150px] max-w-[800px] w-[330px] md:h-[200px] md:max-w-[600px] md:w-[500px] mb-5 relative"
+                    className=" h-[150px] max-w-[800px] w-[330px] lg:h-[200px] md:max-w-[600px] md:w-[500px] mb-5 relative"
                     initial={{ y: -50, opacity: 0 }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -221,7 +221,7 @@ const Projects = (props: Props) => {
                   ))}
                 </div>
               </div>
-              <div className="space-y-10 px-0 md:px-10 max-w-6xl relative z-10 ">
+              <div className="space-y-10 px-0 md:px-10 max-w-6xl relative z-10 w-full shrink-0 w-[400px]">
                 <h4 className="text-xl lg:text-4xl font-semibold text-center  text-black ">
                   <span className="underline decoration-[#f7ab0a]/50">
                     Case study {i + 1} of {projectss.length}{" "}
