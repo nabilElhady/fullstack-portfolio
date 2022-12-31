@@ -33,11 +33,10 @@ function About({}) {
           <span className="underline decoration-[#f7ab0a]/50">
             Nabil Elhady
           </span>
-          &nbsp; iam a junior front end developer I graduated from the
-          University in 2022 with a degree in Computer Science My interests are
-          in Front End Engineering, and I love to create beautiful and
-          performant products with delightful user experiences. my skills are
-          &nbsp;
+          &nbsp; a junior front end developer I graduated from the University in
+          2022 with a degree in Computer Science My interests are in Front End
+          developing, and I love to create beautiful and performant products
+          with delightful user experiences. &nbsp;
           <span className="underline decoration-[#f7ab0a]/50">HTML</span>
           &nbsp; ,<span className="underline decoration-[#f7ab0a]/50">CSS</span>
           &nbsp;,
@@ -52,7 +51,7 @@ function About({}) {
           <span className="underline decoration-[#f7ab0a]/50">react</span>
           &nbsp;and &nbsp;
           <span className="underline decoration-[#f7ab0a]/50">redux</span>
-          &nbsp;.
+          &nbsp; are some of my skills.
           <br /> <br />i have developed so many stunning websites ,i upload them
           continuously to my github repository if you got any questions please
           let me know

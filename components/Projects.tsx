@@ -37,7 +37,7 @@ const Projects = (props: Props) => {
       links: [js, sass, react, redux, firebase],
       porject: "Amazon Clone",
       descripe:
-        "Amazon Clone with firebase authentication sign up and sign in fast responsive site you can add your items to your basket and check out you can delete any items from your basket ",
+        "Amazon Clone with Firebase Authentication Sign up and sign in for a fast, responsive site. You can add your items to your basket and check out. You can delete any items from your basket.",
       git: "https://github.com/nabilElhady/amazon-react-clone",
       demo: "https://amazoon-clone132.web.app/",
     },
@@ -46,7 +46,7 @@ const Projects = (props: Props) => {
       links: [js, react, redux, sass],
       porject: "Food Order",
       descripe:
-        "restaurant website to order food online you can add your plates to your basket and you can delete any items from your basket the website is full responsive ",
+        "restaurant website to order food online You can add plates to your basket and remove any items from it; the website is fully responsive.  ",
       git: "https://github.com/nabilElhady/Food-Order-Site-By-React",
       demo: "https://fir-frontend-aec1e.web.app/",
     },
@@ -55,7 +55,7 @@ const Projects = (props: Props) => {
       links: [js, react, redux, css],
       porject: "note web application",
       descripe:
-        "note web application you can take your note for some thing u don't want to forget responsive website and if  changed your mind you can update the note whenever you want",
+        "Note  web application On a responsive website, you can make a note of something you don't want to forget about, and if your mind changes, you can update the note whenever you want. ",
       git: "https://github.com/nabilElhady/note-site-by-react",
       demo: "https://fir-49f5e.web.app/ ",
     },
@@ -64,7 +64,7 @@ const Projects = (props: Props) => {
       links: [js, react, redux, sass],
       porject: "Schedule web application",
       descripe:
-        "Schedule web application to save your important dates and you can mark your purchases with dates full responsive web application  ",
+        "Schedule web application to save your important dates, and you can mark your purchases with dates. full-responsive web application  ",
       git: "https://github.com/nabilElhady/Schedule-web-application-by-react",
       demo: "https://schedule-8b95f.web.app/ ",
     },
@@ -73,7 +73,7 @@ const Projects = (props: Props) => {
       links: [js, react, redux, sass, firebase],
       porject: "Disney Clone",
       descripe:
-        "Disney clone with google authorization after log in your google photo will be on the header full responsive web site ",
+        "Disney clone with Google authorization: after logging in, your Google photo will be on the header of the fully responsive web site. ",
       git: "https://github.com/nabilElhady/disney-clone-by-react",
       demo: "https://disney-4cc60.web.app ",
     },
@@ -82,7 +82,7 @@ const Projects = (props: Props) => {
       links: [js, react, redux, sass, firebase],
       porject: "Book Store",
       descripe:
-        "Book Store web application you can put your books in your basket and delete them when ever you want full responsive web application",
+        "Book Store web application You can put your books in your basket and delete them whenever you want. full-responsive web application",
       git: "https://github.com/nabilElhady/book-store-by-react",
       demo: "https://custom-c0db0.web.app/ ",
     },
@@ -91,7 +91,7 @@ const Projects = (props: Props) => {
       links: [js, react, redux, sass],
       porject: "weather web application",
       descripe:
-        "weather web application you can search weather by the city will give you the current weather and temperature and the date of the day",
+        "You can search for weather by city in the weather web application, which will give you the current weather, temperature, and date of the day. ",
       git: "https://github.com/nabilElhady/weather-site-by-city-by-react",
       demo: "https://weather-9417.web.app/  ",
     },
@@ -100,7 +100,7 @@ const Projects = (props: Props) => {
       links: [js, react, redux, css],
       porject: "Shop list",
       descripe:
-        "shop list web application you can take it with you to the store to remind you with stuff you want to buy you can increase item number and decrease and remove the item full responsive web application",
+        "web application for shopping lists You can take it with you to the store to remind you of stuff you want to buy. You can increase the item number and decrease or remove the item full-responsive web application",
       git: "https://github.com/nabilElhady/shopping-list-by-react",
       demo: "https://shop-list-7eed2.web.app/",
     },
@@ -109,7 +109,7 @@ const Projects = (props: Props) => {
       links: [html, css, js, sass],
       porject: "tourism website",
       descripe:
-        "tourism company website full responsive website with multiple tavel planes cards and review section ",
+        "Tourism company website: fully responsive website with multiple travel cards and a review section.  ",
       git: "https://github.com/nabilElhady/tourism-company-site-by-js",
       demo: "https://nabilelhady.github.io/tourism-company-site-by-js",
     },
@@ -118,7 +118,7 @@ const Projects = (props: Props) => {
       links: [html, css, js],
       porject: "geolocation with marker",
       descripe:
-        "get your location on the map and put marker with your activities and duration and distance on it",
+        "Get your location on the map and put a marker with your activities, duration, and distance on it.",
       git: "https://github.com/nabilElhady/geolocation-with-marker-by-js",
       demo: "https://nabilelhady.github.io/geolocation-with-marker-by-js/",
     },
@@ -127,7 +127,7 @@ const Projects = (props: Props) => {
       links: [html, css, js],
       porject: "dice game",
       descripe:
-        "dice 1v1 game with js you can roll the dice and u get points equal to the number on the dice u can roll until u press hold you get all the points or the dice hit number 1 you lose all and first one to hit 100 points win",
+        "dice 1v1 game with JS: roll the dice and get points equal to the number on the dice; roll until you press hold and get all the points; or roll until the dice hits number 1 and you lose all. The first player to 100 points wins the game.",
       git: "https://github.com/nabilElhady/dice-game-by-js",
       demo: "https://nabilelhady.github.io/dice-game-by-js/",
     },
@@ -136,7 +136,7 @@ const Projects = (props: Props) => {
       links: [html, css, js],
       porject: "guess my number game",
       descripe:
-        "guess my number game you can enter your guess to the number between 1 and 20 and it will tell you higher or lower until you get the number",
+        "Guess My Number Game: You can enter your guess for the number between 1 and 20, and it will tell you higher or lower until you get the number.",
       git: "https://github.com/nabilElhady/guess-my-number-game-by-js",
       demo: "https://nabilelhady.github.io/guess-my-number-game-by-js/",
     },
@@ -145,7 +145,7 @@ const Projects = (props: Props) => {
       links: [html, css, js],
       porject: "flight booking site",
       descripe:
-        "site to book your flite and u can book for a hotel wherever you want full responsive website with reviews and comment section",
+        "site to book your flight, and you can book a hotel wherever you want, with a fully responsive website with reviews and a comment section.",
       git: "https://github.com/nabilElhady/hotel-booking-site-by-js",
       demo: "https://nabilelhady.github.io/hotel-booking-site-by-js/",
     },
@@ -154,7 +154,7 @@ const Projects = (props: Props) => {
       links: [html, css, js],
       porject: "bankist  site",
       descripe:
-        "this site is demo for areal bank transactions there are 4 users in this demo you can try by entering first letter of his name and father name and enter the passcode first user: (ne) code:1111 second: (am) 2222 third:(me) 3333 fourth:(n7) 4444",
+        "This site is a demo for actual bank transactions. You can try it by entering the first letter of his name and his father's name, as well as the passcode for the first user: (ne) code:1111 second: (am) 2222 third:(me) 3333 fourth:(n7) 4444",
       git: "https://github.com/nabilElhady/bankist-site-by-js",
       demo: "https://nabilelhady.github.io/bankist-site-by-js/",
     },
@@ -170,7 +170,7 @@ const Projects = (props: Props) => {
       <h3 className="absolute md:top-24 top-12  uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         Projects
       </h3>
-      <div className="relative items-center text-center  w-full flex overflow-x-scroll overflow-y-hidden snap-x md:snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  -top-16 md:-top-10 ">
+      <div className="relative  items-center text-center  w-full flex overflow-x-scroll overflow-y-hidden snap-x md:snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  -top-16 md:-top-0 h-[600px] ">
         {/* projects */}
         {projectss.map((item, i) => (
           <div
@@ -181,14 +181,14 @@ const Projects = (props: Props) => {
               <div className="text-center justify-center flex flex-col items-center  w-[400px]">
                 <div className="relative">
                   <motion.img
-                    className=" h-[150px] max-w-[800px] w-[330px] lg:h-[200px] md:max-w-[600px] md:w-[500px] mb-5 relative"
+                    className=" h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px] md:max-w-[600px] lg:w-[500px] mb-5 relative"
                     initial={{ y: -50, opacity: 0 }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     src={item.src}
                   ></motion.img>
                   <motion.div
-                    className="absolute top-0  h-[150px] max-w-[800px] w-[330px] md:h-[200px] md:max-w-[600px] md:w-[500px] gray-scale bg-[#181706] opacity-0 hover:opacity-80 transition-opacity flex justify-center items-center space-x-10   "
+                    className="absolute top-0  h-[150px] max-w-[800px] w-[330px] xl:h-[200px] md:max-w-[600px] lg:w-[500px] gray-scale bg-[#181706] opacity-0 hover:opacity-80 transition-opacity flex justify-center items-center space-x-10   "
                     initial={{ y: -50 }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ y: 0 }}
