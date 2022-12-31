@@ -14,12 +14,12 @@ function About({}) {
         About
       </h3>
       <motion.img
-        initial={{ opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
+        initial={{}}
+        whileInView={{ x: 0 }}
         transition={{ duration: 1.2 }}
         src="https://media.licdn.com/dms/image/C4D03AQH3V8mICejh-w/profile-displayphoto-shrink_800_800/0/1660066061383?e=1677715200&v=beta&t=aOr5duEVNReWwcF2I2FFIzNA2pP6FU0ofzlu9Kdo__4"
         alt=""
-        className="-mb-[8rem] w-[5rem] h-[5rem] rounded-full object-cover flex-shrink-0 md:mb-0 md:rounded-lg md:w-64 md:h-64 xl:w-[500px] xl:h-[500px]"
+        className="-mb-[8rem] w-[5rem] h-[5rem] rounded-full opacity-0 sm:opacity-100 object-cover flex-shrink-0 md:mb-0 md:rounded-lg md:w-64 md:h-64 xl:w-[500px] xl:h-[500px]"
       ></motion.img>
       <div className="space-y-3 px-0 md:px-10 relative top-10 md:top-0">
         <h4 className="text-md font-semibold md:text-4xl ">
