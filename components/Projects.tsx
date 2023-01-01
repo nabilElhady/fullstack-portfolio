@@ -170,7 +170,7 @@ const Projects = (props: Props) => {
       <h3 className="absolute md:top-24 top-12  uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         Projects
       </h3>
-      <div className="relative  items-center text-center  w-full flex overflow-x-scroll overflow-y-hidden snap-x md:snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  -top-16 md:-top-0 h-[600px] ">
+      <div className="relative  items-center text-center  w-full flex overflow-x-scroll overflow-y-hidden snap-x md:snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-track-inherit scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  -top-16 md:-top-0 h-[600px] ">
         {/* projects */}
         {projectss.map((item, i) => (
           <div
