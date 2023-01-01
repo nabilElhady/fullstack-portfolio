@@ -9,9 +9,9 @@ type Props = {
 
 function ExperinceCard({ img, review, name }: Props) {
   return (
-    <article className="w-[300px] text-[#dbdbdb] h-[300px] md:h-[350px] sm:w-[500px] bg-red-500 rounded-lg items-center space-y-1 flex-shrink-0 xl:w-[900px] snap-center bg-[#836b37] p-10 opacity-40 hover:opacity-100  transition-opacity duration-200 overflow-hidden flex flex-col  text-left ">
+    <article className="w-[300px] text-[#dbdbdb] h-[300px] xl:h-[400px] sm:w-[500px]  rounded-lg items-center space-y-6 flex-shrink-0 xl:w-[900px] snap-center bg-[#836b37] p-10 opacity-40 hover:opacity-100  transition-opacity duration-200 overflow-hidden flex flex-col  text-left justify-center relative ">
       <div className="w-full">
-        <h1 className="text-3xl text-[#bdb5a7] tracking-[20px] uppercase text-center font-bold">
+        <h1 className="text-3xl text-[#bdb5a7] tracking-[20px] uppercase text-center font-bold self-end xl:absolute xl:top-10 xl:left-[40%]">
           review
         </h1>
         <div className="flex mt-5 items-center ">

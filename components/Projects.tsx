@@ -211,7 +211,7 @@ const Projects = (props: Props) => {
                     />
                   </motion.div>
                 </div>
-                <div className="flex space-x-10 md:space-x-10 text-center justify-center">
+                <div className="flex  space-x-10 md:space-x-10 text-center justify-center">
                   {item.links.map((item) => (
                     <img
                       className="h-[27px] w-[30px] md:w-[45px] h-[50px]"

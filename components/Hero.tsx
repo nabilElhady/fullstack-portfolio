@@ -19,7 +19,7 @@ function Hero({}: Props) {
       <BackgroundCircules></BackgroundCircules>
       <img
         className="relative rounded-full h-32 w-32 mx-auto"
-        src="https://media.licdn.com/dms/image/C4D03AQH3V8mICejh-w/profile-displayphoto-shrink_800_800/0/1660066061383?e=1677715200&v=beta&t=aOr5duEVNReWwcF2I2FFIzNA2pP6FU0ofzlu9Kdo__4"
+        src="https://media.licdn.com/dms/image/D4D03AQG8dokbvE_3Mw/profile-displayphoto-shrink_800_800/0/1672600071195?e=1678320000&v=beta&t=8U5D0ofbi1lBj11BnZZRwBDqXrV151FNFQOwgzvw0sg"
         alt=""
       ></img>
       <div className="z-20">
