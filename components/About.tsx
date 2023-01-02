@@ -29,13 +29,9 @@ function About({}) {
         </h4>
         <div className="text-l">
           {" "}
-          Hi iam{" "}
-          <span className="underline decoration-[#f7ab0a]/50">
-            Nabil Elhady
-          </span>
-          &nbsp; a junior front end developer I graduated from the University in
-          2022 with a degree in Computer Science My interests are in Front End
-          developing, and I love to create beautiful and performant products
+          Junior front end developer I graduated from the University in 2022
+          with a degree in Computer Science My interests are in Front End
+          developing, and I love to create beautiful and performant websites
           with delightful user experiences. &nbsp;
           <span className="underline decoration-[#f7ab0a]/50">HTML</span>
           &nbsp; ,<span className="underline decoration-[#f7ab0a]/50">CSS</span>
