@@ -188,7 +188,7 @@ const Projects = (props: Props) => {
                     src={item.src}
                   ></motion.img>
                   <motion.div
-                    className="absolute top-0  h-[150px] max-w-[800px] w-[330px] xl:h-[200px] md:max-w-[600px] lg:w-[500px] gray-scale bg-[#181706] opacity-0 hover:opacity-80 transition-opacity flex justify-center items-center space-x-10   "
+                    className="absolute top-0  h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px]  xl:w-[400px] mb-5 left-5 gray-scale bg-[#181706] opacity-0 hover:opacity-80 transition-opacity flex justify-center items-center space-x-10   "
                     initial={{ y: -50 }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ y: 0 }}
@@ -211,7 +211,7 @@ const Projects = (props: Props) => {
                     />
                   </motion.div>
                 </div>
-                <div className="flex  space-x-10 md:space-x-10 text-center justify-center w-[500px] items-center">
+                <div className="flex mb-5  space-x-10 md:space-x-10 text-center justify-center w-[500px] items-center">
                   {item.links.map((item) => (
                     <img
                       className=" h-[30px]  md:h-[40px] "
@@ -221,14 +221,14 @@ const Projects = (props: Props) => {
                   ))}
                 </div>
               </div>
-              <div className="space-y-10 px-0 md:px-10 max-w-6xl relative z-10 w-full shrink-0 w-[400px]">
+              <div className="space-y-7 px-0 md:px-10 max-w-6xl relative z-10 w-full shrink-0 w-[400px]">
                 <h4 className="text-base md:text-xl  lg:text-4xl font-semibold text-center  text-black ">
                   <span className="underline decoration-[#f7ab0a]/50">
                     Case study {i + 1} of {projectss.length}{" "}
                   </span>
                   {item.porject}
                 </h4>
-                <p className="text-sm w-[300px] md:w-full  relative left-12 md:left-0 xl:text-lg text-center md:text-left text-[#dbdbdb] ">
+                <p className="text-base w-[300px] md:w-full  relative left-12 md:left-0 xl:text-lg text-center md:text-left text-[#dbdbdb] ">
                   {item.descripe}
                 </p>
               </div>
