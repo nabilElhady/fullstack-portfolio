@@ -167,15 +167,15 @@ const Projects = (props: Props) => {
       className="h-screen h-[650px]  relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto  items-center z-0"
     >
       {" "}
-      <h3 className="absolute md:top-24 top-12  uppercase tracking-[20px] text-gray-500 text-2xl z-10">
+      <h3 className="absolute lg:top-24 top-12  uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         Projects
       </h3>
-      <div className="relative  items-center text-center  w-full flex overflow-x-scroll overflow-y-hidden snap-x md:snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-track-inherit scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  -top-16 md:-top-0 h-[600px] ">
+      <div className="relative  items-center text-center  w-full flex overflow-x-scroll overflow-y-hidden snap-x md:snap-mandatory z-20 scrollbar scrollbar-thin  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  -top-16 lg:-top-16 xl:top-0 h-[600px] ">
         {/* projects */}
         {projectss.map((item, i) => (
           <div
             key="1"
-            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-sceen"
+            className="w-screen relative top-10 lg:top-24  flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 md:h-sceen"
           >
             <div className=" text-center flex flex-col lg:flex-row ">
               <div className="text-center justify-center flex flex-col items-center  w-[400px]">
@@ -211,10 +211,10 @@ const Projects = (props: Props) => {
                     />
                   </motion.div>
                 </div>
-                <div className="flex  space-x-10 md:space-x-10 text-center justify-center">
+                <div className="flex  space-x-10 md:space-x-10 text-center justify-center w-[500px] items-center">
                   {item.links.map((item) => (
                     <img
-                      className="h-[27px] w-[30px] md:w-[45px] h-[50px]"
+                      className="h-[27px] w-[30px]  md:h-[50px] "
                       key="item"
                       src={item}
                     ></img>
