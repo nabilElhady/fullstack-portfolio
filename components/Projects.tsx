@@ -179,9 +179,9 @@ const Projects = (props: Props) => {
           >
             <div className=" text-center flex flex-col lg:flex-row ">
               <div className="text-center justify-center flex flex-col items-center  w-[400px]">
-                <div className="relative">
+                <div className="relative text-center flex justify-center items-center">
                   <motion.img
-                    className=" h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px] md:max-w-[600px] lg:w-[500px] mb-5 relative"
+                    className=" h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px]  xl:w-[400px] mb-5 relative left-5"
                     initial={{ y: -50, opacity: 0 }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -214,7 +214,7 @@ const Projects = (props: Props) => {
                 <div className="flex  space-x-10 md:space-x-10 text-center justify-center w-[500px] items-center">
                   {item.links.map((item) => (
                     <img
-                      className="h-[27px] w-[30px]  md:h-[50px] "
+                      className=" h-[30px]  md:h-[40px] "
                       key="item"
                       src={item}
                     ></img>
