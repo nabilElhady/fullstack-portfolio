@@ -16,7 +16,7 @@ function Experinces({}: Props) {
       <h3 className="absolute top-10 uppercase tracking-[20px] text-gray-500 text-2xl z-10 md:top-24">
         Experinces
       </h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-4 snap-x snap-mandatory items-end  scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-4 snap-x md:snap-mandatory items-end  scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
         <ExperinceCard
           img="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/294312965_5354979521249322_3268659336270651031_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xSRFioWU9UgAX-vTnMU&_nc_ht=scontent.fcai20-5.fna&oh=00_AfDeoeIhrBVaBDOFj_ElZl6xjM7bU9g3va_PB_QZZXvALQ&oe=63B3EC04"
           name="mahmoud ismail"
