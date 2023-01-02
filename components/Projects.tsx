@@ -222,13 +222,13 @@ const Projects = (props: Props) => {
                 </div>
               </div>
               <div className="space-y-10 px-0 md:px-10 max-w-6xl relative z-10 w-full shrink-0 w-[400px]">
-                <h4 className="text-xl lg:text-4xl font-semibold text-center  text-black ">
+                <h4 className="text-base md:text-xl  lg:text-4xl font-semibold text-center  text-black ">
                   <span className="underline decoration-[#f7ab0a]/50">
                     Case study {i + 1} of {projectss.length}{" "}
                   </span>
                   {item.porject}
                 </h4>
-                <p className="text-sm xl:text-lg text-center md:text-left text-[#dbdbdb] ">
+                <p className="text-sm w-[300px] md:w-full  relative left-12 md:left-0 xl:text-lg text-center md:text-left text-[#dbdbdb] ">
                   {item.descripe}
                 </p>
               </div>
