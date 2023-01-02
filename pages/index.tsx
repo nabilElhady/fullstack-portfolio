@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div
-      className="bg-[rgb(36,36,36)] text-white h-screen snap-y   z-0 overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 "
+      className="bg-[rgb(36,36,36)] text-white h-screen snap-y   z-0 overflow-y-scroll scrollbar-thin overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  md:scrollbar-track-transparent"
       style={{ scrollBehavior: "smooth" }}
     >
       <Head>
@@ -60,7 +60,7 @@ export default function Home() {
       <Link href="#hero">
         <footer className="sticky bottom-5 w-10 relative left-[50%] cursor-pointer">
           <div className=" flex items-center justify-center ">
-            <ChevronDoubleUpIcon className="h-10 w-10 rounded-full grayscale hover:grayscale-0 cursor-pointer border border-[#f7ab0a] bg-[#f7ab0a]/80"></ChevronDoubleUpIcon>
+            <ChevronDoubleUpIcon className="h-10 w-10 rounded-full grayscale hover:grayscale-0 cursor-pointer border border-[#f7ab0a] bg-[#f7ab0a]/80 "></ChevronDoubleUpIcon>
             {/* <img
               src="https://media.licdn.com/dms/image/C4D03AQH3V8mICejh-w/profile-displayphoto-shrink_800_800/0/1660066061383?e=1677715200&v=beta&t=aOr5duEVNReWwcF2I2FFIzNA2pP6FU0ofzlu9Kdo__4"
               className="h-10 w-10 rounded-full grayscale hover:grayscale-0 cursor-pointer"

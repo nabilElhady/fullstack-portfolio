@@ -16,9 +16,9 @@ const ContactMe = (props: Props) => {
     window.location.href = `mailto:nabilelhady73@gmail.com?subject=${data.subject}&body=Hi,my name is ${data.name}.(${data.message}) (${data.email})`;
   };
   return (
-    <div className="md:h-screen h-[650px] md:h-screen text-[#dbdbdb] flex relative text-center flex-col md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center ">
+    <div className="md:h-screen h-[650px]  text-[#dbdbdb] flex relative text-center flex-col md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center ">
       {" "}
-      <h3 className="absolute md:top-5 top-24 uppercase tracking-[20px] text-gray-500 text-2xl z-10">
+      <h3 className="absolute md:top-5 top-16 uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         Contact
       </h3>
       <div className="relative  top-10">
@@ -27,7 +27,7 @@ const ContactMe = (props: Props) => {
           <br />
           <span className="decoration-[#f7ab0a]/50 underline"> lets talk</span>
         </h4>
-        <div className="md:space-y-6 space-y-4 md:my-5">
+        <div className="space-y-6  my-5">
           <div className="flex items-center space-x-5 justify-center mt-2">
             <PhoneIcon className="text-[#f7ab0a] h-7 w-7 animate-pulse"></PhoneIcon>
             <p className="text-2xl">+123456789</p>
