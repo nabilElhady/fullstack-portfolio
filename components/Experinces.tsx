@@ -30,7 +30,7 @@ function Experinces({}: Props) {
         ></ExperinceCard>
         <ExperinceCard
           name="ahmed magedy"
-          img="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/293387830_5630639710320524_7685670626996305018_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PlvRmX0tIlgAX9rWaJp&_nc_ht=scontent.fcai20-5.fna&oh=00_AfCBfeCDL5mZVKwr7Coe7WLbikpR-Idm5km-FjJhLXI7Mw&oe=63B45BC2"
+          img="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/293387830_5630639710320524_7685670626996305018_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NHqoBqzPzuQAX8iaTGv&_nc_ht=scontent.fcai20-5.fna&oh=00_AfDvWJiNFG5v95QkOIhErvSnCdGjq3oiHQwGMJfX1JyWLQ&oe=63C23382"
           review={
             <div className="space-y-2">
               <li>wonderful design</li>
