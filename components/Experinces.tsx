@@ -18,7 +18,7 @@ function Experinces({}: Props) {
       </h3>
       <div className="w-full flex space-x-5 overflow-x-scroll p-4 snap-x md:snap-mandatory items-end  scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
         <ExperinceCard
-          img="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/294312965_5354979521249322_3268659336270651031_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xSRFioWU9UgAX-vTnMU&_nc_ht=scontent.fcai20-5.fna&oh=00_AfDeoeIhrBVaBDOFj_ElZl6xjM7bU9g3va_PB_QZZXvALQ&oe=63B3EC04"
+          img="https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-6/294312965_5354979521249322_3268659336270651031_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tPRICtvgj2cAX9cmS-c&_nc_ht=scontent-cdt1-1.xx&oh=00_AfB-9sexFLY983sOpXb8kZ3w-VTrFTKS9154KrYAdH7qpw&oe=63C1C3C4"
           name="mahmoud ismail"
           review={
             <div className="space-y-2">
@@ -30,7 +30,7 @@ function Experinces({}: Props) {
         ></ExperinceCard>
         <ExperinceCard
           name="ahmed magedy"
-          img="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/293387830_5630639710320524_7685670626996305018_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PlvRmX0tIlgAX9rWaJp&_nc_ht=scontent.fcai20-5.fna&oh=00_AfCBfeCDL5mZVKwr7Coe7WLbikpR-Idm5km-FjJhLXI7Mw&oe=63B45BC2"
+          img="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/293387830_5630639710320524_7685670626996305018_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NHqoBqzPzuQAX8iaTGv&_nc_ht=scontent.fcai20-5.fna&oh=00_AfDvWJiNFG5v95QkOIhErvSnCdGjq3oiHQwGMJfX1JyWLQ&oe=63C23382"
           review={
             <div className="space-y-2">
               <li>wonderful design</li>
@@ -52,7 +52,7 @@ function Experinces({}: Props) {
         ></ExperinceCard>
         <ExperinceCard
           name="sabry"
-          img="https://scontent.fcai20-5.fna.fbcdn.net/v/t1.6435-9/84288656_2304693416297577_627177375402033152_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=VICq7ioiCLAAX8VknvG&_nc_ht=scontent.fcai20-5.fna&oh=00_AfANZeM_qTmbiQAlXhO6T97YKDypzChITlCHD1_OdsmidQ&oe=63D7CAA5"
+          img="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/278531301_2029297893906718_4482713212191363303_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=_XDWMMdkJZ8AX-hsHhF&_nc_ht=scontent.fcai20-5.fna&oh=00_AfB9eg5h__R26o0ywcOldfuJpuJ7EbLfE11bz-NaQaqQnA&oe=63C158DC"
           review={
             <div className="space-y-2">
               <li>good experience</li>
