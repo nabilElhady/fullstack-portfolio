@@ -7,9 +7,9 @@ type Props = {};
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hi,The name's Nabil Elhady",
-      "Guy-Who-loves-Coffee.tsx",
-      "<But Love To Code More>",
+      "Hi,Call me Nabil ",
+      "Websites promote you 24/7: No employee will do that.",
+      "It’s not a bug. It’s an undocumented feature!",
     ],
     loop: true,
     delaySpeed: 200,
