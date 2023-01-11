@@ -18,27 +18,24 @@ export default function Skills({}: Props) {
       <div className="grid grid-cols-3 gap-5 relative top-10">
         <Skill
           text="html"
-          img="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png"
+          img="https://i.ibb.co/0DQ1w1L/5847f5bdcef1014c0b5e489c.png"
         ></Skill>
         <Skill
           text="css"
-          img="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-opencode-css-8.png"
+          img="https://i.ibb.co/Z6vFJmj/kisspng-web-development-cascading-style-sheets-css3-html-5ae480845f38f3-0110241015249245483901.png"
         ></Skill>
         <Skill
           text="js"
-          img="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png"
+          img="https://i.ibb.co/BfbtQBY/pngwing-com-2.png"
         ></Skill>
-        <Skill
-          text="sass"
-          img="https://www.seekpng.com/png/full/141-1415689_vendor-prefixes-for-css3-animations-using-scss-sass.png"
-        ></Skill>
+        <Skill text="sass" img="https://i.ibb.co/Z222y1j/Sass-logo.png"></Skill>
         <Skill
           text="tailwind"
-          img="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+          img="https://i.ibb.co/Mkt537h/tailwindcss-icon.png"
         ></Skill>
         <Skill
           text="react"
-          img="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+          img="https://i.ibb.co/6txhVbc/1174949-js-react-js-logo-react-react-native-icon.png"
         ></Skill>
         <Skill
           text="redux"
@@ -46,7 +43,7 @@ export default function Skills({}: Props) {
         ></Skill>
         <Skill
           text="firebase"
-          img="https://img.icons8.com/color/512/firebase.png"
+          img="https://i.ibb.co/mvW4NRg/firebase-1.png"
         ></Skill>
         <Skill
           text="next.js"

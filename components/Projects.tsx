@@ -12,19 +12,16 @@ const Projects = (props: Props) => {
     "https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png",
     "https://img.icons8.com/color/512/firebase.png",
   ];
-  const js =
-    "https://www.freepnglogos.com/uploads/javascript/javascript-online-logo-for-website-0.png";
-  const sass =
-    "https://www.seekpng.com/png/full/141-1415689_vendor-prefixes-for-css3-animations-using-scss-sass.png";
+  const js = "https://i.ibb.co/BfbtQBY/pngwing-com-2.png";
+  const sass = "https://i.ibb.co/Z222y1j/Sass-logo.png";
   const redux =
     "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png";
   const react =
-    "https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png";
-  const firebase = "https://img.icons8.com/color/512/firebase.png";
+    "https://i.ibb.co/6txhVbc/1174949-js-react-js-logo-react-react-native-icon.png";
+  const firebase = "https://i.ibb.co/mvW4NRg/firebase-1.png";
   const css =
-    "https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-opencode-css-8.png";
-  const html =
-    "https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png";
+    "https://i.ibb.co/Z6vFJmj/kisspng-web-development-cascading-style-sheets-css3-html-5ae480845f38f3-0110241015249245483901.png";
+  const html = "https://i.ibb.co/0DQ1w1L/5847f5bdcef1014c0b5e489c.png";
   const extra = [
     {
       link: [,],
