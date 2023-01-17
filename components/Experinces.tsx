@@ -18,7 +18,7 @@ function Experinces({}: Props) {
       </h3>
       <div className="w-full flex space-x-5 overflow-x-scroll p-4 snap-x md:snap-mandatory items-end  scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
         <ExperinceCard
-          img="https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-6/294312965_5354979521249322_3268659336270651031_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tPRICtvgj2cAX9cmS-c&_nc_ht=scontent-cdt1-1.xx&oh=00_AfB-9sexFLY983sOpXb8kZ3w-VTrFTKS9154KrYAdH7qpw&oe=63C1C3C4"
+          img="https://i.ibb.co/C15NCxL/294312965-5354979521249322-3268659336270651031-n.jpg"
           name="mahmoud ismail"
           review={
             <div className="space-y-2">
