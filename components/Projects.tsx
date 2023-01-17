@@ -22,6 +22,10 @@ const Projects = (props: Props) => {
   const css =
     "https://i.ibb.co/Z6vFJmj/kisspng-web-development-cascading-style-sheets-css3-html-5ae480845f38f3-0110241015249245483901.png";
   const html = "https://i.ibb.co/0DQ1w1L/5847f5bdcef1014c0b5e489c.png";
+  const tailwind = "https://i.ibb.co/Mkt537h/tailwindcss-icon.png";
+  const next =
+    "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png";
+  const sanity = "https://i.ibb.co/sysDtKG/Sanity.png";
   const extra = [
     {
       link: [,],
@@ -30,14 +34,24 @@ const Projects = (props: Props) => {
   const images = [];
   const projectss = [
     {
-      src: "https://iili.io/HuFVXsf.png",
-      links: [js, sass, react, redux, firebase],
-      porject: "Amazon Clone",
+      src: "https://i.ibb.co/G9KPhFm/Screenshot-1-removebg-preview.png",
+      links: [js, sass, react, next, sanity],
+      porject: "Meduim Clone",
       descripe:
-        "Amazon Clone with Firebase Authentication Sign up and sign in for a fast, responsive site. You can add your items to your basket and check out. You can delete any items from your basket.",
-      git: "https://github.com/nabilElhady/amazon-react-clone",
-      demo: "https://amazoon-clone132.web.app/",
+        "Meduim Clone connected with sanity backend admins can create posts and edit them and visitors can comment on the posts.",
+      git: "https://github.com/nabilElhady/meduim-clone5",
+      demo: "https://meduim-clone5.vercel.app/",
     },
+    {
+      src: "https://iili.io/HuKjFAN.png",
+      links: [js, react, tailwind],
+      porject: "Food Order",
+      descripe:
+        "restaurant website to order food online You can add plates to your basket and remove any items from it; the website is fully responsive.  ",
+      git: "https://github.com/nabilElhady/Food-Order-Site-By-React",
+      demo: "https://fir-frontend-aec1e.web.app/",
+    },
+    ,
     {
       src: "https://iili.io/HuKjFAN.png",
       links: [js, react, redux, sass],
