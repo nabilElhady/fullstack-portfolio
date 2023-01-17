@@ -30,7 +30,7 @@ function Experinces({}: Props) {
         ></ExperinceCard>
         <ExperinceCard
           name="ahmed magedy"
-          img="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/293387830_5630639710320524_7685670626996305018_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NHqoBqzPzuQAX8iaTGv&_nc_ht=scontent.fcai20-5.fna&oh=00_AfDvWJiNFG5v95QkOIhErvSnCdGjq3oiHQwGMJfX1JyWLQ&oe=63C23382"
+          img="https://i.ibb.co/C8ZTVfb/293387830-5630639710320524-7685670626996305018-n.jpg"
           review={
             <div className="space-y-2">
               <li>wonderful design</li>
@@ -41,7 +41,7 @@ function Experinces({}: Props) {
         ></ExperinceCard>
         <ExperinceCard
           name="sherbini"
-          img="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/278531301_2029297893906718_4482713212191363303_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=_XDWMMdkJZ8AX-hsHhF&_nc_ht=scontent.fcai20-5.fna&oh=00_AfB9eg5h__R26o0ywcOldfuJpuJ7EbLfE11bz-NaQaqQnA&oe=63C158DC"
+          img="https://i.ibb.co/XLfCzxx/294055069-2108652489304591-7682832945733995900-n.jpg"
           review={
             <div className="space-y-2">
               <li>fast learner</li>
