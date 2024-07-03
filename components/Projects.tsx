@@ -51,33 +51,7 @@ const Projects = (props: Props) => {
       git: "https://github.com/nabilElhady/meduim-clone5",
       demo: "https://meduim-clone5.vercel.app/",
     },
-    {
-      src: "https://iili.io/HuKjFAN.png",
-      links: [js, react, redux, sass],
-      porject: "Food Order",
-      descripe:
-        "restaurant website to order food online You can add plates to your basket and remove any items from it; the website is fully responsive.  ",
-      git: "https://github.com/nabilElhady/Food-Order-Site-By-React",
-      demo: "https://fir-frontend-aec1e.web.app/",
-    },
-    {
-      src: "https://iili.io/HuKt5Vn.png",
-      links: [js, react, redux, css],
-      porject: "note web application",
-      descripe:
-        "Note  web application On a responsive website, you can make a note of something you don't want to forget about, and if your mind changes, you can update the note whenever you want. ",
-      git: "https://github.com/nabilElhady/note-site-by-react",
-      demo: "https://fir-49f5e.web.app/ ",
-    },
-    {
-      src: "https://iili.io/HuKDiQ9.png",
-      links: [js, react, redux, sass],
-      porject: "Schedule web application",
-      descripe:
-        "Schedule web application to save your important dates, and you can mark your purchases with dates. full-responsive web application  ",
-      git: "https://github.com/nabilElhady/Schedule-web-application-by-react",
-      demo: "https://schedule-8b95f.web.app/ ",
-    },
+
     {
       src: "https://iili.io/HuKmNls.png",
       links: [js, react, redux, sass, firebase],
@@ -87,33 +61,7 @@ const Projects = (props: Props) => {
       git: "https://github.com/nabilElhady/disney-clone-by-react",
       demo: "https://disney-4cc60.web.app ",
     },
-    {
-      src: "https://i.ibb.co/NxmCL65/My-project-9.png",
-      links: [js, react, redux, sass, firebase],
-      porject: "Book Store",
-      descripe:
-        "Book Store web application You can put your books in your basket and delete them whenever you want. full-responsive web application",
-      git: "https://github.com/nabilElhady/book-store-by-react",
-      demo: "https://custom-c0db0.web.app/ ",
-    },
-    {
-      src: "https://i.ibb.co/GHqTJpZ/My-project-10.png",
-      links: [js, react, redux, sass],
-      porject: "weather web application",
-      descripe:
-        "You can search for weather by city in the weather web application, which will give you the current weather, temperature, and date of the day. ",
-      git: "https://github.com/nabilElhady/weather-site-by-city-by-react",
-      demo: "https://weather-9417.web.app/  ",
-    },
-    {
-      src: "https://i.ibb.co/f1h8W93/My-project-11.png",
-      links: [js, react, redux, css],
-      porject: "Shop list",
-      descripe:
-        "web application for shopping lists You can take it with you to the store to remind you of stuff you want to buy. You can increase the item number and decrease or remove the item full-responsive web application",
-      git: "https://github.com/nabilElhady/shopping-list-by-react",
-      demo: "https://shop-list-7eed2.web.app/",
-    },
+
     {
       src: "https://i.ibb.co/GP58LQC/My-project-12.png",
       links: [html, css, js, sass],
@@ -123,15 +71,7 @@ const Projects = (props: Props) => {
       git: "https://github.com/nabilElhady/tourism-company-site-by-js",
       demo: "https://nabilelhady.github.io/tourism-company-site-by-js",
     },
-    {
-      src: "https://i.postimg.cc/9XNtRd9H/My-project-13.png",
-      links: [html, css, js],
-      porject: "geolocation with marker",
-      descripe:
-        "Get your location on the map and put a marker with your activities, duration, and distance on it.",
-      git: "https://github.com/nabilElhady/geolocation-with-marker-by-js",
-      demo: "https://nabilelhady.github.io/geolocation-with-marker-by-js/",
-    },
+
     {
       src: "https://i.postimg.cc/pL7LKdZT/My-project-14.png",
       links: [html, css, js],
@@ -141,15 +81,7 @@ const Projects = (props: Props) => {
       git: "https://github.com/nabilElhady/dice-game-by-js",
       demo: "https://nabilelhady.github.io/dice-game-by-js/",
     },
-    {
-      src: "https://i.postimg.cc/yYg5kYkn/My-project-15.png",
-      links: [html, css, js],
-      porject: "guess my number game",
-      descripe:
-        "Guess My Number Game: You can enter your guess for the number between 1 and 20, and it will tell you higher or lower until you get the number.",
-      git: "https://github.com/nabilElhady/guess-my-number-game-by-js",
-      demo: "https://nabilelhady.github.io/guess-my-number-game-by-js/",
-    },
+
     {
       src: "https://i.postimg.cc/KjgNvjJM/My-project-16.png",
       links: [html, css, js],
