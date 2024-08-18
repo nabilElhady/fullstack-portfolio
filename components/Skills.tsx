@@ -54,6 +54,18 @@ export default function Skills({}: Props) {
           text="styled C"
           img="https://i.ibb.co/j8cFrxF/file-type-styled.png"
         ></Skill>
+        <Skill
+          text="expressJS"
+          img="https://cdn.iconscout.com/icon/premium/png-512-thumb/express-js-11217528-9200532.png?f=webp&w=256"
+        ></Skill>
+        <Skill
+          text="mongodb"
+          img="https://cdn.iconscout.com/icon/free/png-512/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175140.png?f=webp&w=256"
+        ></Skill>
+        <Skill
+          text="nodeJS"
+          img="https://img.icons8.com/?size=48&id=54087&format=png"
+        ></Skill>
       </div>
     </motion.div>
   );
