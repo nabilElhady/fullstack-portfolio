@@ -29,10 +29,11 @@ function About({}) {
         </h4>
         <div className="text-l">
           {" "}
-          Junior front end developer I graduated from the University in 2022
-          with a degree in Computer Science My interests are in Front End
-          developing, and I love to create beautiful and performant websites
-          with delightful user experiences. &nbsp;
+          I am a Junior MERN Stack Developer who graduated in 2022 with a degree
+          in Computer Science. My interests lie in full-stack development, with
+          a focus on creating dynamic and user-friendly web applications. I
+          enjoy building responsive interfaces and improving user experiences
+          through innovative solutions. &nbsp;
           <span className="underline decoration-[#f7ab0a]/50">HTML</span>
           &nbsp; ,<span className="underline decoration-[#f7ab0a]/50">CSS</span>
           &nbsp;,
