@@ -26,6 +26,11 @@ const Projects = (props: Props) => {
   const css =
     "https://i.ibb.co/Z6vFJmj/kisspng-web-development-cascading-style-sheets-css3-html-5ae480845f38f3-0110241015249245483901.png";
   const html = "https://i.ibb.co/0DQ1w1L/5847f5bdcef1014c0b5e489c.png";
+  const nodejs = "https://img.icons8.com/?size=48&id=54087&format=png";
+  const mongodb =
+    "https://cdn.iconscout.com/icon/free/png-512/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175140.png?f=webp&w=256";
+  const expressjs =
+    "https://cdn.iconscout.com/icon/premium/png-512-thumb/express-js-11217528-9200532.png?f=webp&w=256";
   const extra = [
     {
       link: [,],
@@ -33,6 +38,15 @@ const Projects = (props: Props) => {
   ];
   const images = [];
   const projectss = [
+    {
+      src: "https://freeimage.host/i/dMfpBlj",
+      links: [react, tailwind, redux, nodejs, mongodb, expressjs],
+      porject: "full stack ecommerce",
+      descripe:
+        "A responsive e-commerce platform with React, Tailwind CSS, Node.js, Express, and MongoDB. Features include product management, admin dashboard, secure authentication, shopping cart, and order processing, with payment gateway integration and a clean, modern UI.",
+      git: "https://github.com/nabilElhady/ecommerce",
+      demo: "https://ecommerce-full-stack-final.vercel.app/",
+    },
     {
       src: "https://iili.io/HuFVXsf.png",
       links: [js, sass, react, redux, firebase],
