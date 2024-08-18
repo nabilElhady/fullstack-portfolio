@@ -19,7 +19,7 @@ const Projects = (props: Props) => {
     "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png";
   const sanity = "https://i.ibb.co/sysDtKG/Sanity.png";
   const redux =
-    "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png";
+    "https://cdn.iconscout.com/icon/free/png-512/free-redux-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-10-pack-icons-283024.png?f=webp&w=256";
   const react =
     "https://i.ibb.co/6txhVbc/1174949-js-react-js-logo-react-react-native-icon.png";
   const firebase = "https://i.ibb.co/mvW4NRg/firebase-1.png";
