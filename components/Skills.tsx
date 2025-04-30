@@ -41,10 +41,7 @@ export default function Skills({}: Props) {
           text="redux"
           img="https://i.postimg.cc/KYCRBhLn/My-project-17.png"
         ></Skill>
-        <Skill
-          text="firebase"
-          img="https://i.ibb.co/mvW4NRg/firebase-1.png"
-        ></Skill>
+
         <Skill
           text="next.js"
           img="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
@@ -75,7 +72,7 @@ export default function Skills({}: Props) {
           img="https://i.ibb.co/Kp93nxtg/API-Gateway.png"
         ></Skill>
         <Skill
-          text="AWS Lambda"
+          text="AWS Lambda  "
           img="https://i.ibb.co/x8Hy4Mdx/Lambda.png"
         ></Skill>
       </div>
