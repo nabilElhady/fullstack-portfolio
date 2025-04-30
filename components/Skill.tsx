@@ -23,7 +23,9 @@ export default function Skill({ text, img }: Props) {
       ></motion.img>
       <div className="absolute opacity-0 group-hover:opacity-70 transition-all duration-300 ease-in-out group-hover:bg-white h-24 w-24 xl:h-26 xl:w-26 rounded-full">
         <div className="flex items-center justify-center h-full">
-          <p className="text-2xl font-bold text-black opacity-100">{text}</p>
+          <p className="text-2xl font-bold text-black opacity-100 text-center">
+            {text}
+          </p>
         </div>
       </div>
     </div>
