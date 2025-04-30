@@ -66,6 +66,18 @@ export default function Skills({}: Props) {
           text="nodeJS"
           img="https://img.icons8.com/?size=48&id=54087&format=png"
         ></Skill>
+        <Skill
+          text="Simple Storage Service"
+          img="https://i.ibb.co/6c28zP5R/Simple-Storage-Service.png"
+        ></Skill>
+        <Skill
+          text="API Gateway"
+          img="https://i.ibb.co/Kp93nxtg/API-Gateway.png"
+        ></Skill>
+        <Skill
+          text="AWS Lambda"
+          img="https://i.ibb.co/x8Hy4Mdx/Lambda.png"
+        ></Skill>
       </div>
     </motion.div>
   );
