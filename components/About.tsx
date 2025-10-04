@@ -17,7 +17,7 @@ function About({}) {
         initial={{}}
         whileInView={{ x: 0 }}
         transition={{ duration: 1.2 }}
-        src="https://ibb.co/tPvNZbP5"
+        src="https://i.ibb.co/S7M1QK7p/1751483179968.jpg"
         alt=""
         className="-mb-[8rem] w-[5rem] h-[5rem] rounded-full opacity-0 sm:opacity-100 object-cover flex-shrink-0 md:mb-0 md: md:w-64 md:h-64 xl:w-[300px] xl:h-[300px] rounded-full"
       ></motion.img>
