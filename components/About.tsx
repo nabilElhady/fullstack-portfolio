@@ -17,7 +17,7 @@ function About({}) {
         initial={{}}
         whileInView={{ x: 0 }}
         transition={{ duration: 1.2 }}
-        src="https://i.ibb.co/NSVbz4L/My-project-19.png"
+        src="https://ibb.co/tPvNZbP5"
         alt=""
         className="-mb-[8rem] w-[5rem] h-[5rem] rounded-full opacity-0 sm:opacity-100 object-cover flex-shrink-0 md:mb-0 md: md:w-64 md:h-64 xl:w-[300px] xl:h-[300px] rounded-full"
       ></motion.img>
@@ -29,11 +29,11 @@ function About({}) {
         </h4>
         <div className="text-l">
           {" "}
-          I am a Junior MERN Stack Developer who graduated in 2022 with a degree
-          in Computer Science. My interests lie in full-stack development, with
-          a focus on creating dynamic and user-friendly web applications. I
-          enjoy building responsive interfaces and improving user experiences
-          through innovative solutions. &nbsp;
+          I’m Nabil Elhady, a Full Stack Developer with a strong focus on
+          Frontend Engineering. I graduated in Computer Science (2022) and since
+          then have built a solid track record with 2+ years of freelancing
+          experience and 3 years of project-based development, delivering
+          modern, scalable, and high-performance web applications. &nbsp;
           <span className="underline decoration-[#f7ab0a]/50">HTML</span>
           &nbsp; ,<span className="underline decoration-[#f7ab0a]/50">CSS</span>
           &nbsp;,
@@ -49,9 +49,12 @@ function About({}) {
           &nbsp;and &nbsp;
           <span className="underline decoration-[#f7ab0a]/50">redux</span>
           &nbsp; are some of my skills.
-          <br /> <br />i have developed so many stunning websites ,i upload them
-          continuously to my github repository if you got any questions please
-          let me know
+          <br /> <br />
+          My journey began with a passion for designing beautiful, user-friendly
+          interfaces, and over time I expanded my expertise to include backend
+          development and cloud/serverless architectures. Today, I bring
+          together frontend creativity and backend problem-solving to deliver
+          end-to-end solutions that are both functional and delightful to use.
         </div>
       </div>
     </motion.div>

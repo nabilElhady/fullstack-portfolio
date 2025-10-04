@@ -64,7 +64,7 @@ export default function Skills({}: Props) {
           img="https://img.icons8.com/?size=48&id=54087&format=png"
         ></Skill>
         <Skill
-          text="Simple Storage Service"
+          text="AWS S3"
           img="https://i.ibb.co/6c28zP5R/Simple-Storage-Service.png"
         ></Skill>
         <Skill

@@ -19,7 +19,7 @@ function Hero({}: Props) {
       <BackgroundCircules></BackgroundCircules>
       <img
         className="relative rounded-full h-32 w-32 mx-auto"
-        src="https://i.ibb.co/NSVbz4L/My-project-19.png"
+        src="https://ibb.co/tPvNZbP5"
         alt=""
       ></img>
       <div className="z-20">

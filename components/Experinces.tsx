@@ -18,6 +18,17 @@ function Experinces({}: Props) {
       </h3>
       <div className="w-full flex space-x-5 overflow-x-scroll p-4 snap-x md:snap-mandatory items-end  scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
         <ExperinceCard
+          name="Kon Damianakis"
+          img="https://i.ibb.co/C8ZTVfb/293387830-5630639710320524-7685670626996305018-n.jpg"
+          review={
+            <div className="space-y-2">
+              <li>Good back end and front end engineer</li>
+              <li>knowledge of AWS and CloudFormation services</li>
+              <li>dedicated and finish before deadline</li>
+            </div>
+          }
+        ></ExperinceCard>
+        <ExperinceCard
           img="https://i.ibb.co/C15NCxL/294312965-5354979521249322-3268659336270651031-n.jpg"
           name="mahmoud ismail"
           review={
@@ -28,17 +39,7 @@ function Experinces({}: Props) {
             </div>
           }
         ></ExperinceCard>
-        <ExperinceCard
-          name="ahmed magedy"
-          img="https://i.ibb.co/C8ZTVfb/293387830-5630639710320524-7685670626996305018-n.jpg"
-          review={
-            <div className="space-y-2">
-              <li>wonderful design</li>
-              <li>keeps his deadlines</li>
-              <li>ambitious</li>
-            </div>
-          }
-        ></ExperinceCard>
+
         <ExperinceCard
           name="sherbini"
           img="https://i.ibb.co/XLfCzxx/294055069-2108652489304591-7682832945733995900-n.jpg"
