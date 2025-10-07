@@ -37,8 +37,11 @@ export default function Home() {
         <meta property="twitter:description" content="Full Stack Developer with 2+ years of freelancing experience specializing in React, Next.js, Node.js, and AWS." />
         <meta property="twitter:image" content="https://i.ibb.co/S7M1QK7p/1751483179968.jpg" />
         
-        {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
+        {/* Favicons */}
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
         
         {/* Theme Color */}
         <meta name="theme-color" content="#f7ab0a" />

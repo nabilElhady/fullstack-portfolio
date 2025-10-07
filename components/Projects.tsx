@@ -150,41 +150,6 @@ const Projects = (props: Props) => {
                       sizes="(max-width: 768px) 90vw, (max-width: 1024px) 50vw, 400px"
                     />
                   </motion.div>
-                  <motion.div
-                    className="absolute inset-0 rounded-lg bg-[#181706] opacity-0 hover:opacity-90 transition-opacity flex justify-center items-center space-x-8 cursor-pointer"
-                    initial={{ y: -50 }}
-                    transition={{ duration: 1.2 }}
-                    whileInView={{ y: 0 }}
-                  >
-                    <a
-                      href={item.git}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cursor-pointer h-12 w-12 relative hover:scale-110 transition-transform"
-                      aria-label={`View ${item.porject} on GitHub`}
-                    >
-                      <Image
-                        src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
-                        alt="GitHub icon"
-                        fill
-                        className="object-contain"
-                      />
-                    </a>
-                    <a
-                      href={item.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cursor-pointer h-12 w-12 relative hover:scale-110 transition-transform"
-                      aria-label={`View ${item.porject} live demo`}
-                    >
-                      <Image
-                        src="https://cdn-icons-png.flaticon.com/512/5625/5625726.png"
-                        alt="Live demo icon"
-                        fill
-                        className="object-contain"
-                      />
-                    </a>
-                  </motion.div>
                 </div>
                 {/* Tech Stack Icons */}
                 <div className="flex flex-wrap gap-3 md:gap-4 justify-center items-center max-w-md">
