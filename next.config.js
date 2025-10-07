@@ -15,7 +15,8 @@ const nextConfig = {
       'cdn-icons-png.flaticon.com',
       'www.freepnglogos.com',
       'www.seekpng.com',
-      'cdn4.iconfinder.com'
+      'cdn4.iconfinder.com',
+      'cdn.worldvectorlogo.com'
     ],
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],

@@ -120,23 +120,24 @@ const Projects = (props: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="h-screen h-[650px]  relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto  items-center z-0"
+      className="min-h-screen h-auto py-20 md:h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
     >
-      <h3 className="absolute lg:top-24 top-12  uppercase tracking-[20px] text-gray-500 text-2xl z-10">
+      <h3 className="absolute top-16 md:top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl z-10">
         Projects
       </h3>
-      <div className="relative  items-center text-center  w-full flex overflow-x-scroll overflow-y-hidden snap-x md:snap-mandatory z-20 scrollbar scrollbar-thin  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  -top-16 lg:-top-16 xl:top-0 h-[600px] ">
+      <div className="relative items-center text-center w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 mt-20 md:mt-0">
         {/* projects */}
         {projectss.map((item, i) => (
           <div
             key={`project-${i}`}
-            className="w-screen relative top-10 lg:top-24  flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 md:h-sceen"
+            className="w-screen flex-shrink-0 snap-center flex flex-col items-center justify-center px-4 sm:px-8 md:px-16 lg:px-20 py-10"
           >
-            <div className=" text-center flex flex-col lg:flex-row ">
-              <div className="text-center justify-center flex flex-col items-center  w-[400px]">
-                <div className="relative text-center flex justify-center items-center">
+            <div className="text-center flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center max-w-7xl">
+              {/* Project Image Section */}
+              <div className="flex flex-col items-center w-full max-w-md lg:max-w-lg">
+                <div className="relative w-full aspect-video mb-6">
                   <motion.div
-                    className="h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px] xl:w-[400px] mb-5 relative left-5 overflow-hidden rounded-lg shadow-lg"
+                    className="w-full h-full overflow-hidden rounded-lg shadow-2xl"
                     initial={{ y: -50, opacity: 0 }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -146,11 +147,11 @@ const Projects = (props: Props) => {
                       alt={`${item.porject} screenshot`}
                       fill
                       className="object-cover"
-                      sizes="(max-width: 1280px) 330px, 400px"
+                      sizes="(max-width: 768px) 90vw, (max-width: 1024px) 50vw, 400px"
                     />
                   </motion.div>
                   <motion.div
-                    className="absolute top-0 h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px] xl:w-[400px] mb-5 left-5 rounded-lg bg-[#181706] opacity-0 hover:opacity-90 transition-opacity flex justify-center items-center space-x-10 cursor-pointer"
+                    className="absolute inset-0 rounded-lg bg-[#181706] opacity-0 hover:opacity-90 transition-opacity flex justify-center items-center space-x-8 cursor-pointer"
                     initial={{ y: -50 }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ y: 0 }}
@@ -159,7 +160,7 @@ const Projects = (props: Props) => {
                       href={item.git}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="cursor-pointer h-10 w-10 relative hover:scale-110 transition-transform"
+                      className="cursor-pointer h-12 w-12 relative hover:scale-110 transition-transform"
                       aria-label={`View ${item.porject} on GitHub`}
                     >
                       <Image
@@ -173,7 +174,7 @@ const Projects = (props: Props) => {
                       href={item.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="cursor-pointer h-10 w-10 relative hover:scale-110 transition-transform"
+                      className="cursor-pointer h-12 w-12 relative hover:scale-110 transition-transform"
                       aria-label={`View ${item.porject} live demo`}
                     >
                       <Image
@@ -185,9 +186,10 @@ const Projects = (props: Props) => {
                     </a>
                   </motion.div>
                 </div>
-                <div className="flex mb-5 space-x-4 md:space-x-6 text-center justify-center w-[500px] items-center">
+                {/* Tech Stack Icons */}
+                <div className="flex flex-wrap gap-3 md:gap-4 justify-center items-center max-w-md">
                   {item.links.map((link, idx) => (
-                    <div key={`tech-${i}-${idx}`} className="h-[30px] w-[30px] md:h-[40px] md:w-[40px] relative">
+                    <div key={`tech-${i}-${idx}`} className="h-8 w-8 md:h-10 md:w-10 relative flex-shrink-0">
                       <Image
                         src={link}
                         alt={`Technology ${idx + 1} icon`}
@@ -198,14 +200,16 @@ const Projects = (props: Props) => {
                   ))}
                 </div>
               </div>
-              <div className="space-y-7 px-0 md:px-10 max-w-6xl relative z-10 w-full shrink-0 w-[400px]">
-                <h4 className="text-base md:text-xl  lg:text-4xl font-semibold text-center  text-black ">
-                  <span className="underline decoration-[#f7ab0a]/50">
-                    Case study {i + 1} of {projectss.length}{" "}
+              
+              {/* Project Details Section */}
+              <div className="space-y-4 md:space-y-6 w-full max-w-md lg:max-w-xl">
+                <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-center lg:text-left">
+                  <span className="underline decoration-[#f7ab0a]/50 block mb-2">
+                    Case study {i + 1} of {projectss.length}
                   </span>
-                  {item.porject}
+                  <span className="text-[#f7ab0a]">{item.porject}</span>
                 </h4>
-                <p className="text-base w-[300px] md:w-full  relative left-12 md:left-0 xl:text-lg text-center md:text-left text-[#dbdbdb] ">
+                <p className="text-sm sm:text-base md:text-lg leading-relaxed text-center lg:text-left text-[#dbdbdb]">
                   {item.descripe}
                 </p>
               </div>

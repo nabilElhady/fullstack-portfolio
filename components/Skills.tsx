@@ -44,7 +44,7 @@ export default function Skills({}: Props) {
 
         <Skill
           text="next.js"
-          img="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
+          img="https://cdn.worldvectorlogo.com/logos/next-js.svg"
         ></Skill>
         <Skill text="Sanity" img="https://i.ibb.co/sysDtKG/Sanity.png"></Skill>
         <Skill
