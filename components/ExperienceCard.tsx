@@ -9,31 +9,31 @@ type Props = {
 
 function ExperienceCard({ img, review, name }: Props) {
   return (
-    <article className="w-[300px] text-[#dbdbdb] h-[300px] xl:h-[400px] sm:w-[500px]  rounded-lg items-center space-y-6 flex-shrink-0 xl:w-[900px] snap-center bg-[#836b37] p-10 opacity-40 hover:opacity-100  transition-opacity duration-200 overflow-hidden flex flex-col  text-left justify-center relative ">
+    <article className="w-[280px] min-h-[320px] sm:w-[400px] md:w-[500px] xl:w-[700px] text-[#dbdbdb] rounded-lg items-center space-y-4 flex-shrink-0 snap-center bg-[#836b37] p-6 md:p-8 xl:p-10 opacity-40 hover:opacity-100 transition-opacity duration-200 overflow-hidden flex flex-col text-left justify-center relative shadow-xl">
       <div className="w-full">
-        <h1 className="text-3xl text-[#bdb5a7] tracking-[20px] uppercase text-center font-bold self-end xl:absolute xl:top-10 xl:left-[40%]">
-          review
+        <h1 className="text-xl sm:text-2xl md:text-3xl text-[#bdb5a7] tracking-[10px] md:tracking-[15px] xl:tracking-[20px] uppercase text-center font-bold mb-4">
+          Review
         </h1>
-        <div className="flex mt-5 items-center ">
-          <div className="w-[50px] h-[50px] rounded-full mr-5 relative overflow-hidden">
+        <div className="flex items-center gap-4">
+          <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full flex-shrink-0 relative overflow-hidden ring-2 ring-[#f7ab0a]/30">
             <Image
               src={img}
               alt={`${name} profile picture`}
               fill
               className="object-cover"
-              sizes="50px"
+              sizes="(max-width: 640px) 48px, (max-width: 768px) 56px, 64px"
             />
           </div>
           <div>
-            <h3 className="text-3xl  font-mono text-gray-900">{name}</h3>
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-mono text-gray-900 capitalize">{name}</h3>
           </div>
         </div>
       </div>
       <div className="w-full">
-        <div className="flex items-center">
+        <div className="flex items-center gap-1">
           <svg
             aria-hidden="true"
-            className="w-5 h-5 text-yellow-400"
+            className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ function ExperienceCard({ img, review, name }: Props) {
           </svg>
           <svg
             aria-hidden="true"
-            className="w-5 h-5 text-yellow-400"
+            className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ function ExperienceCard({ img, review, name }: Props) {
           </svg>
           <svg
             aria-hidden="true"
-            className="w-5 h-5 text-yellow-400"
+            className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ function ExperienceCard({ img, review, name }: Props) {
           </svg>
           <svg
             aria-hidden="true"
-            className="w-5 h-5 text-yellow-400"
+            className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ function ExperienceCard({ img, review, name }: Props) {
           </svg>
           <svg
             aria-hidden="true"
-            className="w-5 h-5 text-yellow-400"
+            className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ function ExperienceCard({ img, review, name }: Props) {
           </svg>
         </div>
       </div>
-      <div className="text-xl font-semibold w-full ">{review}</div>
+      <div className="text-sm sm:text-base md:text-lg font-semibold w-full">{review}</div>
     </article>
   );
 }
