@@ -11,7 +11,7 @@ function Hero({}: Props) {
     words: [
       "Hi, Call me Nabil",
       "Websites promote you 24/7: No employee will do that.",
-      "It&apos;s not a bug. It&apos;s an undocumented feature!",
+      "It's not a bug. It's an undocumented feature!",
       "Building modern web experiences 🚀",
     ],
     loop: true,
