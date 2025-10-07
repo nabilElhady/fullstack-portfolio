@@ -18,7 +18,7 @@ export default function Home() {
     >
       <ScrollProgress />
       <Head>
-        <title>Nabil Elhady - Full Stack Developer Portfolio</title>
+        <title>Nabil Elhady | Full Stack Developer | React, Next.js & Node.js Expert</title>
         <meta name="description" content="Full Stack Developer with 2+ years of freelancing experience specializing in React, Next.js, Node.js, and AWS. View my projects and get in touch." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="Full Stack Developer, React Developer, Next.js, Node.js, AWS, Frontend Developer, Web Development" />

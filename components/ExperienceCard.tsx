@@ -11,9 +11,9 @@ function ExperienceCard({ img, review, name }: Props) {
   return (
     <article className="w-[280px] min-h-[320px] sm:w-[400px] md:w-[500px] xl:w-[700px] text-[#dbdbdb] rounded-lg items-center space-y-4 flex-shrink-0 snap-center bg-[#836b37] p-6 md:p-8 xl:p-10 opacity-40 hover:opacity-100 transition-opacity duration-200 overflow-hidden flex flex-col text-left justify-center relative shadow-xl">
       <div className="w-full">
-        <h1 className="text-xl sm:text-2xl md:text-3xl text-[#bdb5a7] tracking-[10px] md:tracking-[15px] xl:tracking-[20px] uppercase text-center font-bold mb-4">
-          Review
-        </h1>
+        <h2 className="text-xl sm:text-2xl md:text-3xl text-[#bdb5a7] tracking-[10px] md:tracking-[15px] xl:tracking-[20px] uppercase text-center font-bold mb-4">
+          Client Review
+        </h2>
         <div className="flex items-center gap-4">
           <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full flex-shrink-0 relative overflow-hidden ring-2 ring-[#f7ab0a]/30">
             <Image
