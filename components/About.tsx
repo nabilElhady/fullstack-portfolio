@@ -9,26 +9,30 @@ function About() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="min-h-screen h-auto py-20 lg:py-0 lg:h-screen text-[#dbdbdb] flex relative flex-col text-center lg:text-left lg:flex-row max-w-7xl px-4 md:px-10 justify-center lg:justify-evenly mx-auto items-center gap-8 lg:gap-12"
+      className="min-h-screen h-auto py-20 text-[#dbdbdb] flex relative flex-col max-w-7xl px-4 md:px-10 justify-center mx-auto items-center"
     >
       <h3 className="absolute top-16 md:top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl z-10">
         About
       </h3>
-      <motion.div
-        initial={{ x: -200, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 1.2 }}
-        className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-[300px] xl:h-[300px] rounded-full flex-shrink-0 relative overflow-hidden mt-16 lg:mt-0"
-      >
-        <Image
-          src="https://i.ibb.co/S7M1QK7p/1751483179968.jpg"
-          alt="Nabil Elhady professional photo"
-          fill
-          className="object-cover rounded-full"
-          sizes="(max-width: 640px) 160px, (max-width: 768px) 192px, (max-width: 1024px) 224px, 256px"
-        />
-      </motion.div>
-      <div className="space-y-4 md:space-y-6 px-4 md:px-8 lg:px-10 max-w-full lg:max-w-2xl text-center lg:text-left">
+      
+      {/* Main Content - Image and Text */}
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly gap-8 lg:gap-12 w-full mt-16 lg:mt-0">
+        <motion.div
+          initial={{ x: -200, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1.2 }}
+          className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-[300px] xl:h-[300px] rounded-full flex-shrink-0 relative overflow-hidden"
+        >
+          <Image
+            src="https://i.ibb.co/S7M1QK7p/1751483179968.jpg"
+            alt="Nabil Elhady professional photo"
+            fill
+            className="object-cover rounded-full"
+            sizes="(max-width: 640px) 160px, (max-width: 768px) 192px, (max-width: 1024px) 224px, 256px"
+          />
+        </motion.div>
+        
+        <div className="space-y-4 md:space-y-6 px-4 md:px-8 lg:px-10 max-w-full lg:max-w-2xl text-center lg:text-left">
         <h4 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#f7ab0a]/50">little</span>{" "}
@@ -60,8 +64,13 @@ function About() {
           together frontend creativity and backend problem-solving to deliver
           end-to-end solutions that are both functional and delightful to use.
         </div>
+        </div>
       </div>
-      <AnimatedStats />
+      
+      {/* Stats Section - Always Full Width Below */}
+      <div className="w-full mt-12 lg:mt-16">
+        <AnimatedStats />
+      </div>
     </motion.div>
   );
 }
