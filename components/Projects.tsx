@@ -212,6 +212,24 @@ const Projects = (props: Props) => {
                 <p className="text-sm sm:text-base md:text-lg leading-relaxed text-center lg:text-left text-[#dbdbdb]">
                   {item.descripe}
                 </p>
+                <div className="flex gap-4 justify-center lg:justify-start mt-4">
+                  <a
+                    href={item.git}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-transparent border-2 border-[#f7ab0a] text-[#f7ab0a] rounded-lg hover:bg-[#f7ab0a] hover:text-black transition-all duration-300 font-semibold text-sm"
+                  >
+                    View Code
+                  </a>
+                  <a
+                    href={item.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-[#f7ab0a] text-black rounded-lg hover:bg-[#f7ab0a]/80 transition-all duration-300 font-semibold text-sm hover:scale-105"
+                  >
+                    Live Demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>

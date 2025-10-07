@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import AnimatedStats from "./AnimatedStats";
 
 function About() {
   return (
@@ -60,6 +61,7 @@ function About() {
           end-to-end solutions that are both functional and delightful to use.
         </div>
       </div>
+      <AnimatedStats />
     </motion.div>
   );
 }

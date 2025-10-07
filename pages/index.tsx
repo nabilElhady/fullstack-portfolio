@@ -6,15 +6,17 @@ import Experiences from "../components/Experiences";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
+import ScrollProgress from "../components/ScrollProgress";
 import Link from "next/link";
 import { ChevronDoubleUpIcon } from "@heroicons/react/24/solid";
 
 export default function Home() {
   return (
     <div
-      className="bg-[rgb(36,36,36)] text-white h-screen snap-y   z-0 overflow-y-scroll scrollbar-thin overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80  md:scrollbar-track-transparent"
+      className="bg-[rgb(36,36,36)] text-white h-screen snap-y z-0 overflow-y-scroll scrollbar-thin overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 md:scrollbar-track-transparent"
       style={{ scrollBehavior: "smooth" }}
     >
+      <ScrollProgress />
       <Head>
         <title>Nabil Elhady - Full Stack Developer Portfolio</title>
         <meta name="description" content="Full Stack Developer with 2+ years of freelancing experience specializing in React, Next.js, Node.js, and AWS. View my projects and get in touch." />

@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
 import Image from "next/image";
+import DownloadResume from "./DownloadResume";
 
 type Props = {};
 
@@ -38,7 +39,7 @@ function Hero({}: Props) {
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#f7AB0A"></Cursor>
         </h1>
-        <div className="mt-5">
+        <div className="mt-5 flex flex-wrap gap-3 justify-center items-center">
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
@@ -52,6 +53,9 @@ function Hero({}: Props) {
           <Link href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
+        </div>
+        <div className="mt-6">
+          <DownloadResume />
         </div>
       </div>
     </div>
