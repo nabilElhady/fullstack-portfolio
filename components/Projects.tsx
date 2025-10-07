@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { SocialIcon } from "react-social-icons";
+
 type Props = {};
 
 const Projects = (props: Props) => {
@@ -122,7 +122,6 @@ const Projects = (props: Props) => {
       transition={{ duration: 1 }}
       className="h-screen h-[650px]  relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto  items-center z-0"
     >
-      {" "}
       <h3 className="absolute lg:top-24 top-12  uppercase tracking-[20px] text-gray-500 text-2xl z-10">
         Projects
       </h3>
@@ -130,50 +129,72 @@ const Projects = (props: Props) => {
         {/* projects */}
         {projectss.map((item, i) => (
           <div
-            key="1"
+            key={`project-${i}`}
             className="w-screen relative top-10 lg:top-24  flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 md:h-sceen"
           >
             <div className=" text-center flex flex-col lg:flex-row ">
               <div className="text-center justify-center flex flex-col items-center  w-[400px]">
                 <div className="relative text-center flex justify-center items-center">
-                  <motion.img
-                    className=" h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px]  xl:w-[400px] mb-5 relative left-5"
+                  <motion.div
+                    className="h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px] xl:w-[400px] mb-5 relative left-5 overflow-hidden rounded-lg shadow-lg"
                     initial={{ y: -50, opacity: 0 }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ y: 0, opacity: 1 }}
-                    src={item.src}
-                  ></motion.img>
+                  >
+                    <Image
+                      src={item.src}
+                      alt={`${item.porject} screenshot`}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 1280px) 330px, 400px"
+                    />
+                  </motion.div>
                   <motion.div
-                    className="absolute top-0  h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px]  xl:w-[400px] mb-5 left-5 gray-scale bg-[#181706] opacity-0 hover:opacity-80 transition-opacity flex justify-center items-center space-x-10   "
+                    className="absolute top-0 h-[150px] mr-10 max-w-[800px] w-[330px] xl:h-[200px] xl:w-[400px] mb-5 left-5 rounded-lg bg-[#181706] opacity-0 hover:opacity-90 transition-opacity flex justify-center items-center space-x-10 cursor-pointer"
                     initial={{ y: -50 }}
                     transition={{ duration: 1.2 }}
                     whileInView={{ y: 0 }}
                   >
-                    <img
-                      className="cursor-pointer h-10"
-                      src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
-                      onClick={() => {
-                        window.open(item.git);
-                      }}
-                      alt=""
-                    />
-                    <img
-                      src="https://cdn-icons-png.flaticon.com/512/5625/5625726.png"
-                      className="cursor-pointer h-10"
-                      onClick={() => {
-                        window.open(item.demo);
-                      }}
-                      alt=""
-                    />
+                    <a
+                      href={item.git}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cursor-pointer h-10 w-10 relative hover:scale-110 transition-transform"
+                      aria-label={`View ${item.porject} on GitHub`}
+                    >
+                      <Image
+                        src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+                        alt="GitHub icon"
+                        fill
+                        className="object-contain"
+                      />
+                    </a>
+                    <a
+                      href={item.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cursor-pointer h-10 w-10 relative hover:scale-110 transition-transform"
+                      aria-label={`View ${item.porject} live demo`}
+                    >
+                      <Image
+                        src="https://cdn-icons-png.flaticon.com/512/5625/5625726.png"
+                        alt="Live demo icon"
+                        fill
+                        className="object-contain"
+                      />
+                    </a>
                   </motion.div>
                 </div>
-                <div className="flex mb-5  space-x-10 md:space-x-10 text-center justify-center w-[500px] items-center">
-                  {item.links.map((item) => (
-                    <img
-                      className=" h-[30px]  md:h-[40px] "
-                      key="item"
-                      src={item}
-                    ></img>
+                <div className="flex mb-5 space-x-4 md:space-x-6 text-center justify-center w-[500px] items-center">
+                  {item.links.map((link, idx) => (
+                    <div key={`tech-${i}-${idx}`} className="h-[30px] w-[30px] md:h-[40px] md:w-[40px] relative">
+                      <Image
+                        src={link}
+                        alt={`Technology ${idx + 1} icon`}
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
                   ))}
                 </div>
               </div>

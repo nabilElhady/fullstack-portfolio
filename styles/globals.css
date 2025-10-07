@@ -2,17 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+}
+
 @layer components {
   .heroButton {
-    @apply px-6  py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7AB0A]/40;
+    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all duration-300 hover:border-[#f7ab0a]/60 hover:text-[#f7AB0A]/60 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#f7ab0a] focus:ring-offset-2 focus:ring-offset-[rgb(36,36,36)];
   }
+  
   .contactInput {
-    @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-[#f7ab0a]/40 focus:text-[#f7ab0a]/40;
+    @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all duration-300 focus:border-[#f7ab0a]/60 focus:text-[#f7ab0a]/60 focus:bg-slate-400/20;
   }
 }
-html {
-  scroll-behavior: smooth;
+
+/* Performance improvements */
+@layer utilities {
+  .will-change-transform {
+    will-change: transform;
+  }
+  
+  .will-change-opacity {
+    will-change: opacity;
+  }
+  
+  .gpu-accelerated {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
 }
-body {
-  overflow-x: hidden;
-}
+

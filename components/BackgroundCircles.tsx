@@ -1,8 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
+
 type Props = {};
 
-function BackgroundCircules({}: Props) {
+function BackgroundCircles({}: Props) {
   return (
     <motion.div
       initial={{
@@ -25,4 +26,5 @@ function BackgroundCircules({}: Props) {
   );
 }
 
-export default BackgroundCircules;
+export default BackgroundCircles;
+

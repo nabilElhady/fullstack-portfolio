@@ -1,0 +1,18 @@
+{
+  "name": "Nabil Elhady - Full Stack Developer Portfolio",
+  "short_name": "Nabil Elhady",
+  "description": "Full Stack Developer with 2+ years of freelancing experience specializing in React, Next.js, Node.js, and AWS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#242424",
+  "theme_color": "#f7ab0a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
+

@@ -1,18 +1,13 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import About from "../components/About";
-import Experinces from "../components/Experinces";
+import Experiences from "../components/Experiences";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Link from "next/link";
 import { ChevronDoubleUpIcon } from "@heroicons/react/24/solid";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -21,7 +16,30 @@ export default function Home() {
       style={{ scrollBehavior: "smooth" }}
     >
       <Head>
-        <title>portfolio</title>
+        <title>Nabil Elhady - Full Stack Developer Portfolio</title>
+        <meta name="description" content="Full Stack Developer with 2+ years of freelancing experience specializing in React, Next.js, Node.js, and AWS. View my projects and get in touch." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="Full Stack Developer, React Developer, Next.js, Node.js, AWS, Frontend Developer, Web Development" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://nabilelhady.dev/" />
+        <meta property="og:title" content="Nabil Elhady - Full Stack Developer Portfolio" />
+        <meta property="og:description" content="Full Stack Developer with 2+ years of freelancing experience specializing in React, Next.js, Node.js, and AWS." />
+        <meta property="og:image" content="https://i.ibb.co/S7M1QK7p/1751483179968.jpg" />
+        
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://nabilelhady.dev/" />
+        <meta property="twitter:title" content="Nabil Elhady - Full Stack Developer Portfolio" />
+        <meta property="twitter:description" content="Full Stack Developer with 2+ years of freelancing experience specializing in React, Next.js, Node.js, and AWS." />
+        <meta property="twitter:image" content="https://i.ibb.co/S7M1QK7p/1751483179968.jpg" />
+        
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        
+        {/* Theme Color */}
+        <meta name="theme-color" content="#f7ab0a" />
       </Head>
 
       {/* header */}
@@ -36,9 +54,9 @@ export default function Home() {
         <About></About>
       </section>
 
-      {/* experinces */}
-      <section id="experiencs" className="snap-start">
-        <Experinces></Experinces>
+      {/* experiences */}
+      <section id="experiences" className="snap-start">
+        <Experiences></Experiences>
       </section>
 
       {/* skills */}
@@ -58,14 +76,12 @@ export default function Home() {
       </section>
 
       <Link href="#hero">
-        <footer className="sticky bottom-5 w-10 relative left-[50%] cursor-pointer">
-          <div className=" flex items-center justify-center ">
-            <ChevronDoubleUpIcon className="h-10 w-10 rounded-full grayscale hover:grayscale-0 cursor-pointer border border-[#f7ab0a] bg-[#f7ab0a]/80 "></ChevronDoubleUpIcon>
-            {/* <img
-              src="https://media.licdn.com/dms/image/C4D03AQH3V8mICejh-w/profile-displayphoto-shrink_800_800/0/1660066061383?e=1677715200&v=beta&t=aOr5duEVNReWwcF2I2FFIzNA2pP6FU0ofzlu9Kdo__4"
-              className="h-10 w-10 rounded-full grayscale hover:grayscale-0 cursor-pointer"
-              alt=""
-            /> */}
+        <footer className="sticky bottom-5 w-10 relative left-[50%] cursor-pointer" aria-label="Scroll to top">
+          <div className="flex items-center justify-center">
+            <ChevronDoubleUpIcon 
+              className="h-10 w-10 rounded-full grayscale hover:grayscale-0 cursor-pointer border border-[#f7ab0a] bg-[#f7ab0a]/80 hover:bg-[#f7ab0a] transition-all duration-300 hover:scale-110" 
+              aria-label="Scroll to top button"
+            />
           </div>
         </footer>
       </Link>

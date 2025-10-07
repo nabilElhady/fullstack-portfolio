@@ -1,9 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import ExperinceCard from "./ExperinceCard";
+import ExperienceCard from "./ExperienceCard";
+
 type Props = {};
 
-function Experinces({}: Props) {
+function Experiences({}: Props) {
   return (
     <motion.div
       initial={{
@@ -14,10 +15,10 @@ function Experinces({}: Props) {
       className="h-screen flex relative overflow-hidden flex-col text-left   md:flex-row max-w-full px-10 justify-evenly mx-auto relative top-10 md:-top-10"
     >
       <h3 className="absolute top-10 uppercase tracking-[20px] text-gray-500 text-2xl z-10 md:top-24">
-        Experinces
+        Experiences
       </h3>
       <div className="w-full flex space-x-5 overflow-x-scroll p-4 snap-x md:snap-mandatory items-end  scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
-        <ExperinceCard
+        <ExperienceCard
           name="Kon Damianakis"
           img="https://i.ibb.co/C8ZTVfb/293387830-5630639710320524-7685670626996305018-n.jpg"
           review={
@@ -27,8 +28,8 @@ function Experinces({}: Props) {
               <li>dedicated and finish before deadline</li>
             </div>
           }
-        ></ExperinceCard>
-        <ExperinceCard
+        ></ExperienceCard>
+        <ExperienceCard
           img="https://i.ibb.co/C15NCxL/294312965-5354979521249322-3268659336270651031-n.jpg"
           name="mahmoud ismail"
           review={
@@ -38,9 +39,9 @@ function Experinces({}: Props) {
               <li>creative</li>
             </div>
           }
-        ></ExperinceCard>
+        ></ExperienceCard>
 
-        <ExperinceCard
+        <ExperienceCard
           name="sherbini"
           img="https://i.ibb.co/XLfCzxx/294055069-2108652489304591-7682832945733995900-n.jpg"
           review={
@@ -50,8 +51,8 @@ function Experinces({}: Props) {
               <li>hard worker</li>
             </div>
           }
-        ></ExperinceCard>
-        <ExperinceCard
+        ></ExperienceCard>
+        <ExperienceCard
           name="sabry"
           img="https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1719878400&semt=sph"
           review={
@@ -61,10 +62,10 @@ function Experinces({}: Props) {
               <li>just wow</li>
             </div>
           }
-        ></ExperinceCard>
+        ></ExperienceCard>
       </div>
     </motion.div>
   );
 }
 
-export default Experinces;
+export default Experiences;

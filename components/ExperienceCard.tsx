@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
-import img1 from "../public/new1.jpg";
+
 type Props = {
   img: string;
-  review: any;
+  review: React.ReactNode;
   name: string;
 };
 
-function ExperinceCard({ img, review, name }: Props) {
+function ExperienceCard({ img, review, name }: Props) {
   return (
     <article className="w-[300px] text-[#dbdbdb] h-[300px] xl:h-[400px] sm:w-[500px]  rounded-lg items-center space-y-6 flex-shrink-0 xl:w-[900px] snap-center bg-[#836b37] p-10 opacity-40 hover:opacity-100  transition-opacity duration-200 overflow-hidden flex flex-col  text-left justify-center relative ">
       <div className="w-full">
@@ -15,11 +15,15 @@ function ExperinceCard({ img, review, name }: Props) {
           review
         </h1>
         <div className="flex mt-5 items-center ">
-          <img
-            className="w-[50px] h-[50px] rounded-full mr-5"
-            src={img}
-            alt=""
-          />
+          <div className="w-[50px] h-[50px] rounded-full mr-5 relative overflow-hidden">
+            <Image
+              src={img}
+              alt={`${name} profile picture`}
+              fill
+              className="object-cover"
+              sizes="50px"
+            />
+          </div>
           <div>
             <h3 className="text-3xl  font-mono text-gray-900">{name}</h3>
           </div>
@@ -84,4 +88,4 @@ function ExperinceCard({ img, review, name }: Props) {
   );
 }
 
-export default ExperinceCard;
+export default ExperienceCard;
