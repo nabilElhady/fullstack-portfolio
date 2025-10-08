@@ -54,7 +54,7 @@ function Hero({}: Props) {
             <button className="heroButton">Projects</button>
           </Link>
           <Link href="#blog">
-            <button className="blog">Projects</button>
+            <button className="heroButton">blog</button>
           </Link>
         </div>
         <div className="mt-6">
