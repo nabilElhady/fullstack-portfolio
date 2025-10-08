@@ -1,0 +1,39 @@
+{
+  "images": {
+    "domains": [
+      "i.ibb.co",
+      "iili.io",
+      "i.postimg.cc",
+      "img.freepik.com",
+      "seeklogo.com",
+      "cdn.iconscout.com",
+      "img.icons8.com",
+      "cdn-icons-png.flaticon.com",
+      "www.freepnglogos.com",
+      "www.seekpng.com",
+      "cdn4.iconfinder.com",
+      "cdn.worldvectorlogo.com",
+      "images.unsplash.com",
+      "cdn.hashnode.com",
+      "miro.medium.com",
+      "blogger.googleusercontent.com",
+      "www.freecodecamp.org",
+      "www.simplilearn.com",
+      "res.cloudinary.com",
+      "placehold.co",
+      "encrypted-tbn0.gstatic.com",
+      "www.rabit.hu",
+      "uploads.teachablecdn.com",
+      "browserstack.wpenginepowered.com",
+      "www.springboard.com",
+      "sjinnovation.com"
+    ],
+    "remotePatterns": [
+      {
+        "protocol": "https",
+        "hostname": "**"
+      }
+    ]
+  }
+}
+

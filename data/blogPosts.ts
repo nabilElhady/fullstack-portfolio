@@ -156,7 +156,7 @@ Start with one page. Convert static parts to server components. Feel the differe
     readTime: "6 min read",
     category: "Next.js",
     tags: ["Next.js", "Server Components", "React", "Performance"],
-    image: "hhttps://uploads.teachablecdn.com/attachments/0dKhU49vRbiSSWknbHAR_1920X1357.jpg",
+    image: "https://uploads.teachablecdn.com/attachments/0dKhU49vRbiSSWknbHAR_1920X1357.jpg",
     slug: "nextjs-server-components"
   },
   {
