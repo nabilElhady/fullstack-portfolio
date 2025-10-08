@@ -30,6 +30,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.41.1",
     "react-iframe": "^1.8.5",
+    "react-markdown": "^10.1.0",
     "react-player": "^2.11.0",
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^5.15.0",

@@ -6,6 +6,7 @@ import Experiences from "../components/Experiences";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
+import Blog from "../components/Blog";
 import ScrollProgress from "../components/ScrollProgress";
 import Link from "next/link";
 import { ChevronDoubleUpIcon } from "@heroicons/react/24/solid";
@@ -73,6 +74,11 @@ export default function Home() {
 
       <section id="projects" className="md:snap-start">
         <Projects></Projects>
+      </section>
+
+      {/* blog */}
+      <section id="blog" className="snap-start">
+        <Blog></Blog>
       </section>
 
       {/* contacts me */}
