@@ -57,7 +57,7 @@ Remember, the best architecture is the one that your team can understand and mai
     readTime: "5 min read",
     category: "React",
     tags: ["React", "Architecture", "Best Practices", "Scalability"],
-    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1644352627684/QHdmPcI0n.jpeg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPm_PGaQwi7T_fF9H2823azLhDZXjQ3F77Ug&s",
     slug: "building-scalable-react-applications"
   },
   {
@@ -105,7 +105,7 @@ Start small, but keep pushing your understanding forward.
     readTime: "7 min read",
     category: "TypeScript",
     tags: ["TypeScript", "Advanced", "Type Safety", "Best Practices"],
-    image: "https://miro.medium.com/v2/resize:fit:1400/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    image: "https://www.rabit.hu/wp-content/uploads/2023/09/typescript-cover-cropped.jpeg",
     slug: "typescript-beyond-basics"
   },
   {
@@ -156,7 +156,7 @@ Start with one page. Convert static parts to server components. Feel the differe
     readTime: "6 min read",
     category: "Next.js",
     tags: ["Next.js", "Server Components", "React", "Performance"],
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiJCbDJKVW-E9-SqLkJKLlPEW6tJ0R3FJxj9oFGBJxm9VJRaYtJUJWU0GC0Eq0zNZFpfMrGcXB0qZ5s5Y5Y0xZ5Y5Y/s1600/nextjs-boilerplate.png",
+    image: "hhttps://uploads.teachablecdn.com/attachments/0dKhU49vRbiSSWknbHAR_1920X1357.jpg",
     slug: "nextjs-server-components"
   },
   {
@@ -210,7 +210,7 @@ Clean code is a habit, not a destination.
     readTime: "5 min read",
     category: "Best Practices",
     tags: ["Clean Code", "Best Practices", "Software Engineering", "Code Quality"],
-    image: "https://www.freecodecamp.org/news/content/images/2022/03/pexels-pixabay-270348.jpg",
+    image: "https://browserstack.wpenginepowered.com/wp-content/uploads/2024/06/Coding-Standards-and-Best-Practices-to-Follow.png",
     slug: "art-of-clean-code"
   },
   {
@@ -281,7 +281,7 @@ The best full stack developers are continuous learners who know their gaps and a
     readTime: "8 min read",
     category: "Career",
     tags: ["Full Stack", "Career Advice", "Web Development", "Learning"],
-    image: "https://www.simplilearn.com/ice9/free_resources_article_thumb/full_stack_banner.jpg",
+    image: "https://www.springboard.com/blog/wp-content/uploads/2022/06/what-does-a-coder-do-2022-career-guide.jpg",
     slug: "full-stack-development-2025"
   },
   {
@@ -366,7 +366,7 @@ Build your debugging toolkit. Future you will thank present you.
     readTime: "6 min read",
     category: "Debugging",
     tags: ["Debugging", "Best Practices", "Development", "Problem Solving"],
-    image: "https://res.cloudinary.com/practicaldev/image/fetch/s--bR7pJVJu--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m3tz9jbvz5q9r0l0z3z4.png",
+    image: "https://sjinnovation.com/sites/default/files/pictures/blog-post/debug-1024x646.jpg",
     slug: "debugging-like-a-pro"
   }
 ];
