@@ -9,32 +9,33 @@ type Props = {
 
 export default function Skill({ text, img }: Props) {
   return (
-    <div className="group relative flex cursor-pointer ">
-      <motion.div
-        initial={{
-          opacity: 0,
-        }}
-        whileInView={{
-          opacity: 1,
-        }}
-        transition={{ duration: 1 }}
-        className="rounded-full border border-gray-500 p-2 w-20 h-20 sm:w-24 sm:h-24 xl:w-26 xl:h-26 group-hover:grayscale transition-all duration-300 ease-in-out relative overflow-hidden"
-      >
+    <motion.div
+      initial={{ opacity: 0, scale: 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+      className="group relative flex cursor-pointer"
+    >
+      {/* Outer glow on hover */}
+      <div className="absolute -inset-1 bg-gradient-to-r from-[#f7ab0a] to-[#ff6b35] rounded-full opacity-0 group-hover:opacity-60 blur-md transition-all duration-300" />
+      
+      <div className="relative rounded-full border border-[#333] p-3 w-20 h-20 sm:w-24 sm:h-24 xl:w-28 xl:h-28 bg-[#1a1a1a]/80 backdrop-blur-sm group-hover:border-[#f7ab0a]/50 transition-all duration-300 ease-in-out overflow-hidden">
         <Image
           src={img}
           alt={`${text} skill icon`}
           fill
-          className="object-contain"
-          sizes="(max-width: 640px) 80px, (max-width: 1280px) 96px, 104px"
+          className="object-contain p-3 group-hover:scale-110 transition-transform duration-300"
+          sizes="(max-width: 640px) 80px, (max-width: 1280px) 96px, 112px"
         />
-      </motion.div>
-      <div className="absolute opacity-0 group-hover:opacity-70 transition-all duration-300 ease-in-out group-hover:bg-white h-24 w-24 xl:h-26 xl:w-26 rounded-full">
-        <div className="flex items-center justify-center h-full">
-          <p className="text-2xl font-bold text-black opacity-100 text-center">
-            {text}
-          </p>
-        </div>
       </div>
-    </div>
+      
+      {/* Hover overlay with skill name */}
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-gradient-to-br from-[#f7ab0a]/90 to-[#d89909]/90 rounded-full flex items-center justify-center">
+        <p className="text-xs sm:text-sm font-bold text-black text-center uppercase tracking-wider px-2">
+          {text}
+        </p>
+      </div>
+    </motion.div>
   );
 }
+
