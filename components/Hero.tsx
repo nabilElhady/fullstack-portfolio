@@ -11,10 +11,11 @@ type Props = {};
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hi, Call me Nabil",
-      "Websites promote you 24/7: No employee will do that.",
-      "It's not a bug. It's an undocumented feature!",
-      "Building modern web experiences 🚀",
+      "Hi, I'm Nabil 👋",
+      "I build production systems handling 10K+ daily requests",
+      "Full Stack Developer | React • Node.js • AWS",
+      "820+ hours shipped on Upwork with 100% success",
+      "Let's turn your idea into reality 🚀",
     ],
     loop: true,
     delaySpeed: 2000,

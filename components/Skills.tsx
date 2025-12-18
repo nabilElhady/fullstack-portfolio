@@ -75,6 +75,26 @@ export default function Skills({}: Props) {
           text="AWS Lambda  "
           img="https://i.ibb.co/x8Hy4Mdx/Lambda.png"
         ></Skill>
+        <Skill
+          text="TypeScript"
+          img="https://cdn.iconscout.com/icon/free/png-512/free-typescript-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-7-pack-logos-icons-2945272.png?f=webp&w=256"
+        ></Skill>
+        <Skill
+          text="PostgreSQL"
+          img="https://cdn.iconscout.com/icon/free/png-512/free-postgresql-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175119.png?f=webp&w=256"
+        ></Skill>
+        <Skill
+          text="Redis"
+          img="https://cdn.iconscout.com/icon/free/png-512/free-redis-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175105.png?f=webp&w=256"
+        ></Skill>
+        <Skill
+          text="Docker"
+          img="https://cdn.iconscout.com/icon/free/png-512/free-docker-logo-icon-download-in-svg-png-gif-file-formats--social-media-pack-logos-icons-2944835.png?f=webp&w=256"
+        ></Skill>
+        <Skill
+          text="Git"
+          img="https://cdn.iconscout.com/icon/free/png-512/free-git-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-freebies-pack-logos-icons-1175218.png?f=webp&w=256"
+        ></Skill>
       </div>
     </motion.div>
   );

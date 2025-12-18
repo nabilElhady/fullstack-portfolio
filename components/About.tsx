@@ -34,35 +34,32 @@ function About() {
         
         <div className="space-y-4 md:space-y-6 px-4 md:px-8 lg:px-10 max-w-full lg:max-w-2xl text-center lg:text-left">
         <h4 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-semibold">
-          Here is a{" "}
-          <span className="underline decoration-[#f7ab0a]/50">little</span>{" "}
-          background about me
+          Building{" "}
+          <span className="underline decoration-[#f7ab0a]/50">production-grade</span>{" "}
+          systems that scale
         </h4>
         <div className="text-sm sm:text-base md:text-lg leading-relaxed max-w-prose mx-auto lg:mx-0 text-center lg:text-left">
-          I&apos;m <strong>Nabil Elhady</strong>, a Full Stack Developer with a strong focus on
-          Frontend Engineering. I graduated in Computer Science (2022) and have built 
-          a solid track record with <strong>2+ years of freelancing experience</strong> and 
-          3 years of project-based development, delivering modern, scalable, and 
-          high-performance web applications.
+          I&apos;m <strong className="text-[#f7ab0a]">Nabil Elhady</strong>, a Full Stack Developer 
+          with <strong>820+ hours</strong> on Upwork and a <strong>100% job success rate</strong>. 
+          I specialize in building high-performance web applications that handle 
+          real-world traffic — including a resume platform processing <strong>10K+ daily requests</strong> and 
+          an event-driven CRM running <strong>8+ months with zero downtime</strong>.
           <br /><br />
-          My core competencies include{" "}
-          <span className="underline decoration-[#f7ab0a]/50 font-medium">HTML</span>,{" "}
-          <span className="underline decoration-[#f7ab0a]/50 font-medium">CSS</span>,{" "}
-          <span className="underline decoration-[#f7ab0a]/50 font-medium">SASS</span>,{" "}
-          <span className="underline decoration-[#f7ab0a]/50 font-medium">Tailwind CSS</span>,{" "}
-          <span className="underline decoration-[#f7ab0a]/50 font-medium">JavaScript</span>,{" "}
+          <span className="text-gray-400">Core Stack:</span>{" "}
+          <span className="underline decoration-[#f7ab0a]/50 font-medium">TypeScript</span>,{" "}
           <span className="underline decoration-[#f7ab0a]/50 font-medium">React</span>,{" "}
-          <span className="underline decoration-[#f7ab0a]/50 font-medium">Redux</span>,{" "}
           <span className="underline decoration-[#f7ab0a]/50 font-medium">Next.js</span>,{" "}
           <span className="underline decoration-[#f7ab0a]/50 font-medium">Node.js</span>,{" "}
-          <span className="underline decoration-[#f7ab0a]/50 font-medium">MongoDB</span>, and{" "}
-          <span className="underline decoration-[#f7ab0a]/50 font-medium">AWS</span>.
+          <span className="underline decoration-[#f7ab0a]/50 font-medium">PostgreSQL</span>,{" "}
+          <span className="underline decoration-[#f7ab0a]/50 font-medium">MongoDB</span>,{" "}
+          <span className="underline decoration-[#f7ab0a]/50 font-medium">Redis</span>,{" "}
+          <span className="underline decoration-[#f7ab0a]/50 font-medium">AWS</span>, and{" "}
+          <span className="underline decoration-[#f7ab0a]/50 font-medium">Docker</span>.
           <br /><br />
-          My journey began with a passion for designing beautiful, user-friendly
-          interfaces, and over time I expanded my expertise to include backend
-          development and cloud/serverless architectures. Today, I bring
-          together frontend creativity and backend problem-solving to deliver
-          end-to-end solutions that are both functional and delightful to use.
+          I don&apos;t just write code — I optimize database queries by <strong>85%</strong>, 
+          reduce maintenance from <strong>35 hrs/week to 6 hrs/week</strong>, and build 
+          systems that clients can rely on. Whether it&apos;s serverless architectures, 
+          AI integrations, or complex API designs, I deliver solutions that work.
         </div>
         </div>
       </div>
