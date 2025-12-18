@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Experiences from "../components/Experiences";
 import Skills from "../components/Skills";
+import ClientProjects from "../components/ClientProjects";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Blog from "../components/Blog";
@@ -68,6 +69,11 @@ export default function Home() {
       {/* skills */}
       <section id="skills" className="snap-start">
         <Skills></Skills>
+      </section>
+
+      {/* client work - NDA protected projects */}
+      <section id="client-work" className="snap-start">
+        <ClientProjects></ClientProjects>
       </section>
 
       {/* projects */}
