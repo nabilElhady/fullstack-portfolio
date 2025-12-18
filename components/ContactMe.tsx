@@ -1,5 +1,5 @@
 import React from "react";
-import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { motion } from "framer-motion";
 
@@ -51,16 +51,6 @@ const ContactMe = (props: Props) => {
           viewport={{ once: true }}
           className="flex flex-wrap justify-center gap-4 mb-8"
         >
-          <a
-            href="tel:+201234567890"
-            className="flex items-center gap-3 px-5 py-3 bg-[#1a1a1a]/60 backdrop-blur-sm rounded-xl border border-[#333] hover:border-[#f7ab0a]/50 transition-all duration-300 group"
-          >
-            <PhoneIcon className="text-[#f7ab0a] h-5 w-5 group-hover:animate-pulse" aria-hidden="true" />
-            <span className="text-sm sm:text-base text-gray-300 group-hover:text-white transition-colors">
-              +20 123 456 7890
-            </span>
-          </a>
-          
           <div className="flex items-center gap-3 px-5 py-3 bg-[#1a1a1a]/60 backdrop-blur-sm rounded-xl border border-[#333]">
             <MapPinIcon className="text-[#f7ab0a] h-5 w-5" aria-hidden="true" />
             <span className="text-sm sm:text-base text-gray-300">Egypt</span>
