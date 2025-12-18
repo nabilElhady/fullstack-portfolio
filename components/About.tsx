@@ -42,7 +42,7 @@ function About() {
           I&apos;m <strong className="text-[#f7ab0a]">Nabil Elhady</strong>, a Full Stack Developer 
           with <strong>820+ hours</strong> on Upwork and a <strong>100% job success rate</strong>. 
           I specialize in building high-performance web applications that handle 
-          real-world traffic — including a resume platform processing <strong>10K+ daily requests</strong> and 
+          real-world traffic including a resume platform processing <strong>10K+ daily requests</strong> and 
           an event-driven CRM running <strong>8+ months with zero downtime</strong>.
           <br /><br />
           <span className="text-gray-400">Core Stack:</span>{" "}
@@ -56,7 +56,7 @@ function About() {
           <span className="underline decoration-[#f7ab0a]/50 font-medium">AWS</span>, and{" "}
           <span className="underline decoration-[#f7ab0a]/50 font-medium">Docker</span>.
           <br /><br />
-          I don&apos;t just write code — I optimize database queries by <strong>85%</strong>, 
+          I don&apos;t just write code I optimize database queries by <strong>85%</strong>, 
           reduce maintenance from <strong>35 hrs/week to 6 hrs/week</strong>, and build 
           systems that clients can rely on. Whether it&apos;s serverless architectures, 
           AI integrations, or complex API designs, I deliver solutions that work.
