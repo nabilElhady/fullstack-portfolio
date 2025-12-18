@@ -22,13 +22,13 @@ const ContactMe = (props: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="min-h-screen h-auto py-20 md:py-24 text-[#dbdbdb] flex relative text-center flex-col md:text-left md:flex-row max-w-7xl px-4 sm:px-6 md:px-10 justify-evenly mx-auto items-center"
+      className="min-h-screen h-auto py-24 md:py-32 text-[#dbdbdb] flex relative text-center flex-col max-w-7xl px-4 sm:px-6 md:px-10 justify-start mx-auto items-center"
     >
-      <h3 className="absolute top-16 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl z-10">
+      <h3 className="uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl mb-12 md:mb-16">
         Contact
       </h3>
       
-      <div className="relative mt-20 md:mt-0 w-full max-w-2xl">
+      <div className="relative w-full max-w-2xl">
         <motion.h4
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

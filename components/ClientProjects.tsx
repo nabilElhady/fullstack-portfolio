@@ -11,10 +11,10 @@ function ClientProjects({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="min-h-screen h-auto py-20 md:py-24 flex relative flex-col text-center md:text-left max-w-7xl px-4 sm:px-6 md:px-10 justify-center mx-auto items-center"
+      className="min-h-screen h-auto py-24 md:py-32 flex relative flex-col text-center md:text-left max-w-7xl px-4 sm:px-6 md:px-10 justify-start mx-auto items-center"
     >
       {/* Section Title */}
-      <h3 className="absolute top-16 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl">
+      <h3 className="uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl mb-6">
         Client Work
       </h3>
 
@@ -24,7 +24,7 @@ function ClientProjects({}: Props) {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         viewport={{ once: true }}
-        className="mt-20 md:mt-24 mb-8 md:mb-12 text-center max-w-3xl"
+        className="mb-8 md:mb-12 text-center max-w-3xl"
       >
         <p className="text-gray-400 text-sm sm:text-base md:text-lg">
           Production systems I&apos;ve built for clients. Due to NDAs, code and

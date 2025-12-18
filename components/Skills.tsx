@@ -10,12 +10,12 @@ export default function Skills({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="min-h-screen h-auto py-20 md:h-screen flex relative flex-col text-center md:text-left max-w-[2000px] px-4 md:px-10 justify-center mx-auto items-center"
+      className="min-h-screen h-auto py-24 md:py-32 flex relative flex-col text-center md:text-left max-w-[2000px] px-4 md:px-10 justify-start mx-auto items-center"
     >
-      <h3 className="absolute top-16 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl z-20">
+      <h3 className="uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl mb-12 md:mb-16">
         Skills
       </h3>
-      <div className="grid grid-cols-3 sm:grid-cols-4 gap-4 md:gap-5 mt-20 md:mt-10">
+      <div className="grid grid-cols-3 sm:grid-cols-4 gap-4 md:gap-5">
         <Skill
           text="html"
           img="https://i.ibb.co/0DQ1w1L/5847f5bdcef1014c0b5e489c.png"

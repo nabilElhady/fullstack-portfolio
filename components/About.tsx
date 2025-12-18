@@ -9,14 +9,14 @@ function About() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="min-h-screen h-auto py-20 text-[#dbdbdb] flex relative flex-col max-w-7xl px-4 md:px-10 justify-center mx-auto items-center"
+      className="min-h-screen h-auto py-24 md:py-32 text-[#dbdbdb] flex relative flex-col max-w-7xl px-4 md:px-10 justify-start mx-auto items-center"
     >
-      <h3 className="absolute top-16 md:top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl z-10">
+      <h3 className="uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl mb-12 md:mb-16">
         About
       </h3>
       
       {/* Main Content - Image and Text */}
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly gap-8 lg:gap-12 w-full mt-16 lg:mt-0">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly gap-8 lg:gap-12 w-full">
         <motion.div
           initial={{ x: -200, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}

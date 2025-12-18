@@ -12,12 +12,12 @@ function Experiences({}: Props) {
       }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="min-h-screen h-auto py-20 md:h-screen flex relative overflow-hidden flex-col text-left max-w-full px-4 md:px-10 justify-evenly mx-auto items-center"
+      className="min-h-screen h-auto py-24 md:py-32 flex relative overflow-hidden flex-col text-left max-w-full px-4 md:px-10 justify-start mx-auto items-center"
     >
-      <h3 className="absolute top-16 md:top-24 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl z-20">
+      <h3 className="uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl md:text-2xl mb-12 md:mb-16">
         Experiences
       </h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-4 snap-x snap-mandatory items-center md:items-end scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin mt-20 md:mt-0">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-4 snap-x snap-mandatory items-center scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
         <ExperienceCard
           name="Kon Damianakis"
           img="https://i.ibb.co/C8ZTVfb/293387830-5630639710320524-7685670626996305018-n.jpg"
