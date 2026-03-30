@@ -148,4 +148,41 @@ export const clientProjects: ClientProject[] = [
     ],
     status: "completed",
   },
+  {
+    id: "golf4community-platform",
+    title: "Golf4Community Platform",
+    subtitle: "Full-Stack Web App Revamp",
+    description:
+      "Engineered a complete transformation of a legacy Next.js codebase into a premium, fully responsive platform. Built an advanced Custom CMS, hierarchical RBAC security, Stripe monetization, and real-time WebSocket communications.",
+    achievements: [
+      { metric: "100%", label: "Mobile Responsive", icon: "📱" },
+      { metric: "6", label: "User Archetypes (RBAC)", icon: "🔐" },
+      { metric: "Real-time", label: "WebSocket Sync", icon: "⚡" },
+      { metric: "Stripe", label: "Payments & Subs", icon: "💳" },
+    ],
+    technologies: [
+      "Next.js 16",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "MySQL2",
+      "Stripe",
+      "Pusher",
+      "Cloudinary"
+    ],
+    techIcons: [
+      "https://cdn.iconscout.com/icon/free/png-512/free-next-js-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2945012.png?f=webp&w=256",
+      "https://cdn.iconscout.com/icon/free/png-512/free-typescript-logo-icon-download-in-svg-png-gif-file-formats--programming-language-pack-logos-icons-1174965.png?f=webp&w=256",
+      "https://cdn.iconscout.com/icon/free/png-512/free-tailwind-css-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175085.png?f=webp&w=256",
+      "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
+      "https://cdn.iconscout.com/icon/free/png-512/free-mysql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945040.png?f=webp&w=256"
+    ],
+    challenges: [
+      "Stripped hardcoded CSS for mobile-first Tailwind design",
+      "Built custom CMS with direct-to-cloud file streaming",
+      "Optimized legacy DB with direct parameterized SQL queries",
+      "Masked sensitive data rendering based on user roles",
+    ],
+    status: "completed",
+  },
 ];
