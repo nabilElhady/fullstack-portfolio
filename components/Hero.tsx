@@ -11,49 +11,49 @@ type Props = {};
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hi, I'm Nabil 👋",
-      "I build production systems handling 10K+ daily requests",
-      "Full Stack Developer | React • Node.js • AWS",
-      "820+ hours shipped on Upwork with 100% success",
-      "Let's turn your idea into reality 🚀",
-    ],
-    loop: true,
-    delaySpeed: 2000,
-  });
-  return (
-    <div className="h-screen flex flex-col space-y-0 justify-center items-center text-center overflow-hidden relative">
-      <BackgroundCircles></BackgroundCircles>
-      
-      {/* Profile Image with Animated Glow Border */}
-      <motion.div
-        initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
-        className="relative mb-4"
-      >
-        {/* Animated Gradient Border */}
-        <div className="absolute -inset-1 bg-gradient-to-r from-[#f7ab0a] via-[#ff6b35] to-[#f7ab0a] rounded-full opacity-75 blur-sm animate-pulse"></div>
-        <div className="relative rounded-full h-32 w-32 md:h-36 md:w-36 overflow-hidden ring-2 ring-[#f7ab0a]/30">
-          <Image
-            src="https://i.ibb.co/S7M1QK7p/1751483179968.jpg"
-            alt="Nabil Elhady Profile Picture"
-            width={144}
-            height={144}
-            className="rounded-full object-cover"
-            priority
-          />
-        </div>
-      </motion.div>
-      
-      <div className="z-20">
-        <motion.h2 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-xs sm:text-sm uppercase text-gray-500 pb-2 tracking-[10px] sm:tracking-[15px] mt-3"
-        >
-          Full Stack Developer
-        </motion.h2>
+          "Hi, I'm Nabil 👋",
+          "I build production-grade SaaS systems",
+          "Node.js · TypeScript · Next.js · AWS",
+          "890+ hours shipped on Upwork with 100% success",
+          "Let's turn your idea into reality 🚀",
+        ],
+        loop: true,
+        delaySpeed: 2000,
+      });
+      return (
+        <div className="h-screen flex flex-col space-y-0 justify-center items-center text-center overflow-hidden relative">
+          <BackgroundCircles></BackgroundCircles>
+          
+          {/* Profile Image with Animated Glow Border */}
+          <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
+            className="relative mb-4"
+          >
+            {/* Animated Gradient Border */}
+            <div className="absolute -inset-1 bg-gradient-to-r from-[#f7ab0a] via-[#ff6b35] to-[#f7ab0a] rounded-full opacity-75 blur-sm animate-pulse"></div>
+            <div className="relative rounded-full h-32 w-32 md:h-36 md:w-36 overflow-hidden ring-2 ring-[#f7ab0a]/30">
+              <Image
+                src="https://i.ibb.co/S7M1QK7p/1751483179968.jpg"
+                alt="Nabil Elhady Profile Picture"
+                width={144}
+                height={144}
+                className="rounded-full object-cover"
+                priority
+              />
+            </div>
+          </motion.div>
+          
+          <div className="z-20">
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="text-xs sm:text-sm uppercase text-gray-500 pb-2 tracking-[4px] sm:tracking-[8px] mt-3"
+            >
+              I build production-grade SaaS systems
+            </motion.h2>
         
         <motion.h1 
           initial={{ opacity: 0 }}

@@ -155,10 +155,10 @@ export const clientProjects: ClientProject[] = [
     description:
       "Engineered a complete transformation of a legacy Next.js codebase into a premium, fully responsive platform. Built an advanced Custom CMS, hierarchical RBAC security, Stripe monetization, and real-time WebSocket communications.",
     achievements: [
-      { metric: "100%", label: "Mobile Responsive", icon: "📱" },
-      { metric: "6", label: "User Archetypes (RBAC)", icon: "🔐" },
-      { metric: "Real-time", label: "WebSocket Sync", icon: "⚡" },
-      { metric: "Stripe", label: "Payments & Subs", icon: "💳" },
+      { metric: "80%", label: "DB Load Reduction", icon: "📉" },
+      { metric: "200+", label: "Concurrent Users", icon: "👥" },
+      { metric: "6", label: "User Types (Full RBAC)", icon: "🔐" },
+      { metric: "14s → Instant", label: "Compile Time", icon: "⚡" },
     ],
     technologies: [
       "Next.js 16",

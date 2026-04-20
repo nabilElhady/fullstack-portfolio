@@ -63,27 +63,27 @@ function ClientProjects({}: Props) {
         className="mt-12 md:mt-16 flex flex-wrap justify-center gap-6 md:gap-10"
       >
         <div className="text-center">
+          <p className="text-2xl md:text-3xl font-bold text-[#f7ab0a]">Top Rated</p>
+          <p className="text-xs text-gray-500 uppercase tracking-wider">
+            Upwork Status
+          </p>
+        </div>
+        <div className="text-center">
           <p className="text-2xl md:text-3xl font-bold text-[#f7ab0a]">100%</p>
           <p className="text-xs text-gray-500 uppercase tracking-wider">
             Job Success
           </p>
         </div>
         <div className="text-center">
-          <p className="text-2xl md:text-3xl font-bold text-[#f7ab0a]">820+</p>
+          <p className="text-2xl md:text-3xl font-bold text-[#f7ab0a]">890+</p>
           <p className="text-xs text-gray-500 uppercase tracking-wider">
             Hours Logged
           </p>
         </div>
         <div className="text-center">
-          <p className="text-2xl md:text-3xl font-bold text-[#f7ab0a]">$2K+</p>
+          <p className="text-2xl md:text-3xl font-bold text-[#f7ab0a]">5</p>
           <p className="text-xs text-gray-500 uppercase tracking-wider">
-            Earned
-          </p>
-        </div>
-        <div className="text-center">
-          <p className="text-2xl md:text-3xl font-bold text-[#f7ab0a]">⭐</p>
-          <p className="text-xs text-gray-500 uppercase tracking-wider">
-            Rising Talent
+            Production Systems
           </p>
         </div>
       </motion.div>
