@@ -34,8 +34,8 @@ export default function RefundPage() {
           </p>
           
           <p className="bg-[#f7ab0a]/5 border-l-2 border-[#f7ab0a] p-6 italic hover:bg-[#f7ab0a]/10 transition-all">
-            "We are committed to ensuring you can successfully run the code on your local machine and will provide 
-            reasonable technical assistance for setup issues."
+            &quot;We are committed to ensuring you can successfully run the code on your local machine and will provide 
+            reasonable technical assistance for setup issues.&quot;
           </p>
         </div>
       </motion.div>

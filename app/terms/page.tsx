@@ -45,9 +45,9 @@ export default function TermsPage() {
               Disclaimer
             </h2>
             <p className="text-gray-400 italic">
-              "The code is provided &quot;as is&quot; without warranty of any kind, express or implied. 
+              &quot;The code is provided &quot;as is&quot; without warranty of any kind, express or implied. 
               In no event shall the author be liable for any claim, damages, or other liability arising 
-              from your use of the software."
+              from your use of the software.&quot;
             </p>
           </section>
         </div>

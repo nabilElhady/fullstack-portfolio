@@ -47,8 +47,8 @@ export default function PrivacyPage() {
               Our Commitment
             </h2>
             <p>
-              "We will <span className="text-white font-medium underline decoration-[#f7ab0a]/50">never</span> sell, rent, or trade your personal data to third parties. 
-              Your data is used only within our internal systems to maintain your product license and provide support."
+              &quot;We will <span className="text-white font-medium underline decoration-[#f7ab0a]/50">never</span> sell, rent, or trade your personal data to third parties. 
+              Your data is used only within our internal systems to maintain your product license and provide support.&quot;
             </p>
           </section>
         </div>
