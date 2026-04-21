@@ -19,8 +19,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="bg-[rgb(36,36,36)] text-white min-h-screen flex flex-col justify-between">
+      <body className={`${inter.className} bg-[rgb(36,36,36)] relative`}>
+        {/* Background Grid Pattern */}
+        <div className="fixed inset-0 bg-grid-pattern opacity-10 pointer-events-none z-0" />
+        {/* Noise Texture */}
+        <div className="fixed inset-0 bg-noise opacity-5 pointer-events-none z-0" />
+        
+        <div className="relative z-10 text-white min-h-screen flex flex-col justify-between">
           <Header />
           <div className="flex-grow">
             {children}
