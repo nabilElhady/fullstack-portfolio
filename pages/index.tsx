@@ -9,6 +9,7 @@ import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Blog from "../components/Blog";
 import ScrollProgress from "../components/ScrollProgress";
+import Footer from "../components/Footer";
 import Link from "next/link";
 import { ChevronDoubleUpIcon } from "@heroicons/react/24/solid";
 
@@ -92,16 +93,7 @@ export default function Home() {
         <ContactMe></ContactMe>
       </section>
 
-      <Link href="#hero">
-        <footer className="sticky bottom-5 w-10 relative left-[50%] cursor-pointer" aria-label="Scroll to top">
-          <div className="flex items-center justify-center">
-            <ChevronDoubleUpIcon 
-              className="h-10 w-10 rounded-full grayscale hover:grayscale-0 cursor-pointer border border-[#f7ab0a] bg-[#f7ab0a]/80 hover:bg-[#f7ab0a] transition-all duration-300 hover:scale-110" 
-              aria-label="Scroll to top button"
-            />
-          </div>
-        </footer>
-      </Link>
+      <Footer />
     </div>
   );
 }

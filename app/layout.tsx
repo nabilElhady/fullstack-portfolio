@@ -3,9 +3,13 @@ import { Inter } from "@next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Nabil Elhady | Full Stack Developer",
-  description: "Production-grade SaaS systems and web applications.",
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nabil Elhady | SaaS Systems Architect",
+  description: "Production-grade SaaS systems and scalable web applications.",
 };
 
 export default function RootLayout({
@@ -16,8 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="bg-[rgb(36,36,36)] text-white min-h-screen">
-          {children}
+        <div className="bg-[rgb(36,36,36)] text-white min-h-screen flex flex-col justify-between">
+          <Header />
+          <div className="flex-grow">
+            {children}
+          </div>
+          <Footer />
         </div>
       </body>
     </html>
